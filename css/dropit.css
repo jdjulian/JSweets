@@ -1,0 +1,127 @@
+/*
+ * Dropit v1.1.0
+ * http://dev7studios.com/dropit
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* These styles assume you are using ul and li */
+.dropit {
+    list-style: none;
+	padding: 0;
+    margin: 15px 0 0;
+    float: right;
+    display: inline-block;
+}
+.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+	padding: 20px;
+	margin: 20px 0 0;
+}
+.dropit .dropit-open .dropit-submenu { 
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    border-radius: 4px;
+}
+.dropit .dropit-open .dropit-submenu:after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -8px;
+    right: 10px;
+}
+.dropit .dropit-open .dropit-submenu li {
+    display: block;
+    margin-bottom: 20px;
+}
+.dropit .dropit-open .dropit-submenu li:last-child {
+    margin-bottom: 0px;
+}
+.dropit .dropit-open .dropit-submenu li a {
+    color:#34495E;
+    text-decoration: none;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+/*Checkpoint 35 Assignment*/ 
+#menu-settings .dropit-submenu {
+    top: -125px;
+}
+#menu-settings .dropit-submenu:after {
+    /*bottom: -8px;
+    right: 10px;*/
+    /*width: 0;
+    height: 0;*
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;*/
+    border-top: 10px solid #fff;
+    border-bottom: 0;
+    margin-top: 110px;
+
+}
+/*#menu-settings .dropit {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: inline-block;
+    float: right;
+}
+#menu-settings .dropit .dropit-trigger { position: relative; }
+#menu-settings .dropit .dropit-submenu {
+    position: absolute;
+    /*top: 100%;
+    right: 0; 
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+    padding: 20px;
+    margin: 20px 0 0;
+}
+#menu-settings .dropit .dropit-open .dropit-submenu { 
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+    border-radius: 4px;
+}
+#menu-settings .dropit .dropit-open .dropit-submenu:after {
+    content: " ";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+  /*bottom: -8px;
+    right: 10px;
+}
+#menu-settings .dropit .dropit-open .dropit-submenu li {
+    display: block;
+    margin-bottom: 20px;
+}
+#menu-settings .dropit .dropit-open .dropit-submenu li:last-child {
+    margin-bottom: 0px;
+}
+#menu-settings .dropit .dropit-open .dropit-submenu li a {
+    color:#34495E;
+    text-decoration: none;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}*/
