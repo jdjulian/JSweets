@@ -1,0 +1,101 @@
+/** NAV **/
+.nav {
+    overflow: auto;
+    width: 100%;
+}
+.nav ul li {
+    display: inline;
+    list-style-type: none;
+    clear:both;
+
+}
+.nav ul li a{
+    font-size: 18px;
+    font-family: "Avenir Next";
+    color: #416c78;
+    text-decoration: none;
+}
+.about-gallery {
+    float: left;
+    width: 33.3333%;
+}
+.about-gallery ul {
+    margin-left: 33.3333%;
+    padding-top: 30%;
+}
+
+.about-gallery li:nth-child(2) {
+    margin-left: 50%;
+}
+
+.pricing-order {
+    float: left;
+    width: 33.3333%;
+}
+.pricing-order ul {
+    display: block;
+    margin-right: 33.3333%;
+    padding-top: 30%;
+}
+
+.pricing-order li:first-child {
+    margin-right: 50%;
+}
+.logo {
+    float: left;
+    width: 33.3333%;
+}
+.logo img {
+    margin-left: 20%;
+    margin-right: auto; 
+    width: 65%;
+}
+
+/**FOOTER**/
+
+.footer { background-color: #ab6e81; 
+    overflow: auto;
+    width: 100%;
+}
+
+.footer a, .footer p {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin: 0 auto; }
+
+.footer li {
+  margin-left: 10px; }
+
+.footer i:first-child {
+  padding-left: 30px; }
+
+.footer .fa {
+  font-size: 20px;
+  margin: 0 auto; }
+
+.copyright, .social-media, .contact {
+    width: 33.3333%;
+    float: left;
+}
+
+.copyright p {
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 30%;
+}
+    
+.social-media ul li {
+    display: inline-block;
+    list-style-type: none;
+    clear:both;
+    margin-left: 7%;
+}
+
+.contact p {
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10%;
+}
+
