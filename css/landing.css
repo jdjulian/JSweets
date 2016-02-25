@@ -62,72 +62,6 @@
     margin-left: 15%;
 }
 
-
-/**.about-gallery li:nth-child(2) {
-    margin-left: 50%;
-}**/
-
-
-/**.pricing-order li:first-child {
-    margin-right: 50%;
-}
-
-.logo img {
-    display: block;
-    margin: 0 auto;
-    width: 30%;
-}
-
-/**ul {
-    font-size: 18px;
-    font-family: "Avenir Next";
-    color: #416c78;
-    display: inline-block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-.nav ul {
-    font-size: 18px;
-    font-family: "Avenir Next";
-    color: #416c78;
-    display: inline; }
-
-.nav .row {
-    max-height: 250px;
-    max-width: 797px; }
-
-.nav .small-4:first-child, 
-.nav .small-4:nth-child(2),
-.nav .small-4:nth-child(3) {
-    padding-left: 0;
-    padding-right: 0; }
-
-.nav .small-4:nth-child(3) {
-    margin: 0 auto; }
-
-.nav img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-
-.nav .left {
-    padding-top: 140px;
-    padding-left: 15px; }
-
-.nav .right {
-    padding-top: 140px;
-    padding-right: 15px; }
-
-.firstnavlink, .thirdnavlink {
-    padding-right: 75px; }
-
-.thirdnavlink, .fourthnavlink {
-    vertical-align: right; }
-**/
-
 /** HERO **/
 .hero {
     background-color: #ab6e81;
@@ -162,42 +96,10 @@
     padding-bottom: 50px;
     width: 65%;
     max-height: auto;
+    border: 1px solid #416c78;
+    border-radius: 4px; 
 }
 
-/** 
-.hero {
-    background-color: #ab6e81;
-    clear: both;
-    width: 100%;
-}
-
-.hero .row {
-    max-height: 600px;
-    max-width: 940px; }
-
-.hero h1, .hero p {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: "Avenir Next";
-    padding-left: 15px;
-    padding-right: 15px; }
-
-.hero h1 {
-    font-size: 36px;
-    margin: 0 auto;
-    padding-top: 50px; }
-
-.hero p {
-    font-size: 21px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
-
-.hero .large-12 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px; }
-**/
 
 /** HOW DOES IT WORK SECTION **/
 .how { overflow: auto; }
@@ -233,6 +135,7 @@
     font-family: "Avenir Next";
     color: #416c78; 
     font-weight: 400;
+    font-size: 18px;
 }
 
 .how p {
@@ -251,14 +154,14 @@ button {
     margin: 0 auto;
     width: 20%;
     height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: #93E1F7;
     border-radius: 12px;
     border: none;
     text-align: center;
     vertical-align: middle;
     color: #416c78; 
-    font-weight: 400;
+    font-weight: 800;
     font-size: 15px;
 }
 
@@ -266,71 +169,6 @@ button {
     text-decoration: none;
 }
 
-/**.how a {
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: block;
-    margin: auto;
-    width: 100%;
-  }
-
-.how .small-4:nth-child(1) img {
-    transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg); }
-
-.how img {
-    filter: saturate(50%);
-    -webkit-filter: saturate(50%);
-    -moz-filter: saturate(50%);
-    -o-filter: saturate(50%);
-    -ms-filter: saturate(50%);
-/*    height: 225px;
-   width: 100%;
-    border-radius: 50%;
-    display: inline-block;
-    border: 1px solid #416c78; }
-
-.how .row {
-    max-width: 797px; }
-
-.how h2, .how p {
-    text-align: center;
-    font-family: "Avenir Next";
-    color: #416c78; }
-
-.how p {
-    margin-top: 20px;
-    margin-bottom: 30px; }
-
-.how h2 {
-    font-size: 24px; 
-    padding-top: 50px;
-    padding-bottom: 40px;
-    margin: 0 auto; }
-
-.how a {
-    /*margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0px;
-    margin-right: 0px;*
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-.how .small-centered {
-    /*padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    margin: 0 auto;
-  }
-
-**/
 /** TESTIMONIALS**/
 .testimonials {
     background-color: #ab6e81;
@@ -351,6 +189,9 @@ button {
 .testimonial-image img {
     width: 100%;
     margin-top: 10%;
+    max-height: auto;
+    border: 1px solid #416c78;
+    border-radius: 4px; 
 }
 
 .testimonial {
@@ -387,49 +228,6 @@ button {
     font-family: "Avenir Next"; 
     text-align: center;
 }
-
-
-
-/**
-.testimonials {
-    background-color: #ab6e81; }
-
-.testimonials .row {
-    max-width: 797px; }
-
-.testimonials h2,  
-.testimonials p {
-    color: #FFFFFF;
-    text-align: center;
-    font-family: "Avenir Next"; }
-
-.testimonials h2 {
-    font-size: 24px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
-
-.testimonials p {
-    font-size: 18px;
-    text-align: left;
-    /**padding-top: 20px;
-    padding-bottom: 50px;
-    margin: 0 auto; }
-
-.testimonials .small-3 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /**float: left;
-    width: 100%;
-    max-height: auto;
-    /**padding-top: 20px;
-    padding-bottom: 20px; }
-
-.testimonials .small-3,
-.testimonials .small-9 {
-    padding right: 15px; 
-    padding-left: 15px; }
 
 /** PRICING **/
 .pricing-div {
@@ -513,70 +311,13 @@ button {
     text-align: center;
     vertical-align: middle;
     color: #416c78; 
-    font-weight: 400;
+    font-weight: 800;
     font-size: 15px;
 }
 
 .pricing-div a {
     text-decoration: none;
 }
-
-/**
-.pricing h1,
-.pricing h2,
-.pricing h3 {
-    color: #416c78; 
-    font-family: "Avenir Next"; }
-
-.pricing h1 {
-    font-size: 50px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 20px; }
-
-.pricing h2 {
-    font-size: 24px;
-    padding-bottom: 30px;
-    padding-top: 30px; }
-
-.pricing h3 {
-    font-size: 18px;
-    margin: 0 auto; }
-
-.pricing h1, .pricing h2 {
-    margin-top: 20px;
-    margin-bottom: 20px; }
-
-.pricing {
-    text-align: center;
-    color: #416c78; }
-
-.pricing .row {
-    max-width: 797px;
-    max-height: auto; }
-
-.pricing a {
-    margin-top: 20px;
-    width: 50%;
-    margin-right: 0px;
-    margin-left: 0px; }
-
-.pricing img {
-    /**-ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    border: 1px solid #416c78;
-    max-height: auto;
-    width: 60%;
-    display: block;
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    float: left; 
-    margin-bottom: 50px;
-    border-radius: 4px; }
-**/
-
 
 /**FOOTER**/
 
@@ -626,39 +367,6 @@ button {
     margin-right: 10%;
 }
 
-
-
-/**.footer {
-  background-color: #ab6e81; }
-
-.footer .row {
-  max-width: 797px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 5px; }
-
-.footer a, .footer p {
-  font-size: 12px;
-  color: #FFFFFF;
-  margin: 0 auto; }
-
-.footer .small-4:nth-child(3) p {
-  text-align: right;
-  font-size: 10px; }
-
-.footer li {
-  margin-left: 10px; }
-
-.footer i:first-child {
-  padding-left: 30px; }
-
-/**.footer .small-4:nth-child(3) {
-}
-
-.footer .fa {
-  font-size: 20px;
-  margin: 0 auto; }
 
 /** MEDIA QUERIES
 
