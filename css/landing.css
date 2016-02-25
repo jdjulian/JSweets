@@ -160,7 +160,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
-    width: 70%;
+    width: 65%;
     max-height: auto;
 }
 
@@ -339,7 +339,7 @@ button {
 
 .testimonials .row {
     overflow: auto;
-    width: 70%;
+    width: 60%;
     display: block;
     margin: 0 auto;
 }
