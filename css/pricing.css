@@ -51,6 +51,96 @@
     width: 65%;
 }
 
+/**PRICING**/
+.row {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.pricing img {
+ display: block;
+    margin: 0 auto;
+  
+}
+.cakes, .cupcakes, .cakepops, .price-explanation {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: auto;
+}
+.one-tier, .two-tier, .three-tier {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.one-cupcake, .half-cupcakes, .dozen-cupcakes {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+.one-cakepop, .half-cakepops, .dozen-cakepops {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Avenir Next;
+    font-weight: 700;
+    color: #416c78;
+}
+
+h3, p {
+    font-size: 15px;
+    font-family: Avenir Next;
+    font-weight: 400;
+    text-align: center;
+    color: #416c78;
+}
+
+h4 {
+    font-size: 10px;
+    font-family: Avenir Next;
+    font-weight: 400;
+    text-align: center;
+    color: #416c78
+}
+
+.pricing a {
+  text-decoration: none;
+}
+
+button {
+    display: block;
+    width: 30%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #93E1F7;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #416c78; 
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
 /**FOOTER**/
 
 .footer { background-color: #ab6e81; 
