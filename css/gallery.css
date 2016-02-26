@@ -1,54 +1,64 @@
 /** NAV **/
 .nav {
-    overflow: auto;
     width: 100%;
 }
+
+.nav .row {
+    overflow: auto;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
 .nav ul li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     clear:both;
-
 }
+
 .nav ul li a{
     font-size: 18px;
     font-family: "Avenir Next";
     color: #416c78;
     text-decoration: none;
 }
+
 .about-gallery {
     float: left;
     width: 33.3333%;
 }
-.about-gallery ul {
-    margin-left: 33.3333%;
-    padding-top: 30%;
-}
 
-.about-gallery li:nth-child(2) {
-    margin-left: 50%;
+.logo {
+    float: left;
+    width: 33.3333%;
 }
 
 .pricing-order {
     float: left;
     width: 33.3333%;
 }
-.pricing-order ul {
+
+.nav ul {
     display: block;
-    margin-right: 33.3333%;
-    padding-top: 30%;
+    margin: 0 auto;
+    padding-top: 50%;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: auto;
+}
+
+.about-gallery li:nth-child(2) {
+    margin-left: 30%;
+    margin-right: 15%;
 }
 
 .pricing-order li:first-child {
-    margin-right: 50%;
-}
-.logo {
-    float: left;
-    width: 33.3333%;
-}
-.logo img {
-    margin-left: 20%;
-    margin-right: auto; 
-    width: 65%;
+    margin-right: 30%;
+    margin-left: 15%;
 }
 
 /**GALLERY**/
