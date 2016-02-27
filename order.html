@@ -17,6 +17,7 @@
     
 <!--NAV-->
 <div class="nav">
+    <div class="row">
     <div class="about-gallery">
         <ul>
             <li><a href="about.html" class="about">About</a></li>
@@ -32,17 +33,44 @@
             <li><a href="order.html" class="order">Order</a></li>
         </ul>
     </div>
+    </div>
 </div>
+    
     
     <!--ORDER-->
 <div class="order">
     <div class="row">
         <div class="contact">
             <h3>Contact Information</h3>
+            <div class="first">
+                <form class="first">
+                    First Name<br>
+                    <input type="text" name="firstname"><br><br>
+                    Email (Required)<br>
+                    <input type="email" name="email">                   </form>
+            </div>
+            <div class="last">
+                <form class="right">
+                    Last Name<br>
+                    <input type="text" name="lastname"><br><br>
+                    Email (Required)<br>
+                    <input type="text" name="phone">                     </form>
+            </div>   
         </div>
         <div class="what-to-order">
-             <h3>What would you like to order</h3>
+            <h3>1. What would you like to order</h3><br>
+                <ul>
+                    <li>Cake</li>
+                    <li>Cupcakes</li>
+                    <li>Cake Pops</li>
+                </ul>
+                <form>
+                    <input type="radio" name="gender" value="male" checked><img src="images/Price-icons/single-cake.gif" alt="cake" />
+                    <input type="radio" name="gender" value="female"><img src="images/Price-icons/single-cupcake.gif" alt="cupcake" />
+                    <input type="radio" name="gender" value="other"><img src="images/Price-icons/single-pop.gif" alt="cake-pop" />
+                </form>
         </div>
+
         <div class="custom">
             <div class="design">
                  <h4>2. Design</h4>
@@ -56,7 +84,7 @@
         </div>
         <div class="Submt">
             <button>Submit Request</button>
-        </div>
+        </div>-->
     </div>
 </div>
 

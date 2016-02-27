@@ -1,55 +1,234 @@
-/** NAV **/
+//** NAV **/
 .nav {
-    overflow: auto;
     width: 100%;
 }
+
+.nav .row {
+    overflow: auto;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
 .nav ul li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     clear:both;
-
 }
+
 .nav ul li a{
     font-size: 18px;
     font-family: "Avenir Next";
     color: #416c78;
     text-decoration: none;
 }
+
 .about-gallery {
     float: left;
     width: 33.3333%;
 }
-.about-gallery ul {
-    margin-left: 33.3333%;
-    padding-top: 30%;
-}
 
-.about-gallery li:nth-child(2) {
-    margin-left: 50%;
+.logo {
+    float: left;
+    width: 33.3333%;
 }
 
 .pricing-order {
     float: left;
     width: 33.3333%;
 }
-.pricing-order ul {
+
+.nav ul {
     display: block;
-    margin-right: 33.3333%;
-    padding-top: 30%;
+    margin: 0 auto;
+    padding-top: 50%;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: auto;
+}
+
+.about-gallery li:nth-child(2) {
+    margin-left: 30%;
+    margin-right: 15%;
 }
 
 .pricing-order li:first-child {
-    margin-right: 50%;
+    margin-right: 30%;
+    margin-left: 15%;
 }
-.logo {
+
+/**ORDER**/
+.order .row {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.order .contact {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: Avenir Next;
+    font-size: 18px;
+    color: #416c78;
+}
+    
+
+.order .first {
     float: left;
-    width: 33.3333%;
+    width: 50%;;
+    display: block;
+    margin: 0 auto; 
+    padding-top: 10px;
 }
-.logo img {
-    margin-left: 20%;
-    margin-right: auto; 
-    width: 65%;
+
+.order .last {
+    float: left;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
 }
+
+.first form {
+    width: 300px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.last form {
+    width: 300px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 65px;
+}
+input {
+    width: 300px;
+    height: 20px;
+}
+
+.what-to-order {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto;
+    clear: both;
+    background: pink;
+}
+
+.what-to-order h3 {
+    text-align: center;
+}
+
+.what-to-order form {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.order ul {
+    display: block;
+    margin: 0 auto;
+    /**padding-top: 50%;**/
+}
+
+.order li {
+    display: inline-block;
+    list-style-type: none;
+    clear:both;
+    font-size: 14px;
+    font-family: Avenir Next;
+    color: #416c78;
+}
+
+.order li:first-child {
+    margin-left: 165px;
+}
+
+.order li:nth-child(2) {
+    margin-left: 120px;
+}
+
+.order li:nth-child(3) {
+    margin-left: 105px;
+}
+
+.what-to-order input {
+    display: inline-block;
+    width: 5%;
+}
+
+.custom {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    background: yellow;
+}
+
+.design {
+    width: 33.333%;
+    float: left;
+    height: 500px;
+    background: yellow;
+}
+
+.flavor {
+    width: 33.333%;
+    float: left;
+    height: 500px;
+    background: yellow;
+}
+
+.date {
+    width: 33.333%;
+    float: left;
+    height: 500px;
+    background: yellow;
+}
+
+
+
+/**
+.custom {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.design {
+    width: 33.333%;
+    float:left;
+}
+
+.flavor {
+    width: 33.333%;
+    float:left;
+}
+
+.date {
+    width: 33.333%;
+    float:left;
+}
+**/
 
 /**FOOTER**/
 
