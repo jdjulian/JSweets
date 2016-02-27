@@ -3,6 +3,21 @@
     width: 100%;
 }
 
+input[type="text"]{
+  border-radius: 4px;
+}
+
+input[type=radio] + label {
+  color: #416c78;
+  font-family: Avenir Next;
+}
+
+form {
+  font-family: Avenir Next;
+  font-size: 14px;
+     color: #416c78;
+}
+
 .nav .row {
     overflow: auto;
     width: 70%;
@@ -84,6 +99,7 @@ h3 {
     font-family: Avenir Next;
     font-size: 18px;
     color: #416c78;
+    padding-top: 20px;
 }
     
 
@@ -117,7 +133,7 @@ h3 {
     margin: 0 auto;
     padding-left: 65px;
 }
-input {
+.contact input {
     width: 300px;
     height: 20px;
 }
@@ -184,51 +200,102 @@ input {
     background: yellow;
 }
 
+.custom h4 {
+    font-size: 15px;
+    font-family: Avenir Next;
+    color: #416c78;
+}
+
+.custom p {
+    font-size: 14px;
+    font-family: Avenir Next;
+    color: #416c78;
+    text-align: left;
+}
+
+.custom p, .custom h4, .custom form, .custom input[type="radio"] {
+    padding-left: 10px;
+    text-indent: 15px;
+}
+
+select {
+    width: 200px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border-color: black;
+    color: palevioletred;
+}
+
+
+.about-design input {
+    width: 200px;
+    height: 100px;  
+}
+
 .design {
     width: 33.333%;
     float: left;
-    height: 500px;
+    height: 600px;
     background: yellow;
+    background: pink;
 }
 
 .flavor {
     width: 33.333%;
     float: left;
-    height: 500px;
-    background: yellow;
+    height: 600px;
+    background: lightblue;
+     background: pink;
 }
 
 .date {
     width: 33.333%;
     float: left;
-    height: 500px;
+    height: 600px;
     background: yellow;
+     background: pink;
 }
 
-
-
-/**
-.custom {
-    width: 100%;
+.submit {
+    width: 70%;
     display: block;
     margin: 0 auto;
+    clear: both;
+    overflow: auto;
 }
 
-.design {
-    width: 33.333%;
-    float:left;
+button {
+    width: 200px;
+    display: block;
+    height: 40px;
+    font-size: 14px;
+    background-color: #93E1F7;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #416c78; 
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
-.flavor {
-    width: 33.333%;
-    float:left;
+.about-design form {
+    width: 100px;
 }
 
-.date {
-    width: 33.333%;
-    float:left;
+.design input[type="radio"]{
+    display: inline;
+    width: auto;
 }
-**/
+
+.flavor input[type="radio"]{
+    display: inline;
+    width: auto;
+}
+
 
 /**FOOTER**/
 
