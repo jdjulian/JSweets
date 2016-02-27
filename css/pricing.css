@@ -1,0 +1,230 @@
+/** NAV **/
+.nav {
+    width: 100%;
+}
+
+.nav .row {
+    overflow: auto;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    clear:both;
+}
+
+.nav ul li a{
+    font-size: 18px;
+    font-family: "Avenir Next";
+    color: #416c78;
+    text-decoration: none;
+}
+
+.about-gallery {
+    float: left;
+    width: 33.3333%;
+}
+
+.logo {
+    float: left;
+    width: 33.3333%;
+}
+
+.pricing-order {
+    float: left;
+    width: 33.3333%;
+}
+
+.nav ul {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50%;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height: auto;
+}
+
+.about-gallery li:nth-child(2) {
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+.pricing-order li:first-child {
+    margin-right: 30%;
+    margin-left: 15%;
+}
+
+
+/**PRICING**/
+.pricing .row {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.pricing img {
+    display: block;
+    margin: auto; 
+}
+
+.one-tier img {
+    margin-top: 32px;
+}
+
+.one-cupcake img{
+    margin-top: 44px;
+}
+
+.one-cakepop img {
+    margin-top: 29px;
+}
+
+.two-tier img {
+    margin-top: 11px;
+}
+
+.half-cupcakes img{
+    margin-top: 28px;
+}
+
+.half-cakepops img {
+    margin-top: 24px;
+}
+
+.cakes, .cupcakes, .cakepops, .price-explanation {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    overflow: auto;
+}
+.one-tier, .two-tier, .three-tier {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.one-cupcake, .half-cupcakes, .dozen-cupcakes {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+.one-cakepop, .half-cakepops, .dozen-cakepops {
+    float: left;
+    width: 33.333%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Avenir Next;
+    font-weight: 700;
+    color: #416c78;
+    padding-left: 4%;
+}
+
+h3, p {
+    font-size: 15px;
+    font-family: Avenir Next;
+    font-weight: 400;
+    text-align: center;
+    color: #416c78;
+}
+
+h4 {
+    font-size: 10px;
+    font-family: Avenir Next;
+    font-weight: 400;
+    text-align: center;
+    color: #416c78
+}
+
+.pricing a {
+  text-decoration: none;
+}
+
+button {
+    display: block;
+    width: 30%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #93E1F7;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #416c78; 
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/**FOOTER**/
+
+.footer { background-color: #ab6e81; 
+    overflow: auto;
+    width: 100%;
+}
+
+.footer a, .footer p {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin: 0 auto; }
+
+.footer li {
+  margin-left: 10px; }
+
+.footer i:first-child {
+  padding-left: 30px; }
+
+.footer .fa {
+  font-size: 20px;
+  margin: 0 auto; }
+
+.copyright, .social-media, .contact {
+    width: 33.3333%;
+    float: left;
+}
+
+.copyright p {
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 30%;
+}
+    
+.social-media ul li {
+    display: inline-block;
+    list-style-type: none;
+    clear:both;
+    margin-left: 7%;
+}
+
+.contact p {
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+
+
