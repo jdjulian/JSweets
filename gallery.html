@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/image-slider.css">
 
 </head>
 <body>
@@ -40,20 +41,44 @@
 <!--GALLERY-->
 <div class="gallery">
     <div class="row">
-        <div class="cupcake-photo">
-            <p>Cupcakes</p>
+        <!--CUPCAKE SLIDER -->
+            <div id="modal">
+                <button id="modal-hide">x</button>
+			<div class="image-slider-wrapper">
+				<ul id="image_slider">
+					<li><img src="images/gallery/Cupcakes/chanel.jpeg"></li>
+					<li><img src="images/gallery/Cupcakes/football.png"></li>
+					<li><img src="images/gallery/Cupcakes/minnie_mouse.png"></li>
+					<li><img src="images/gallery/Cupcakes/ninja_turtles.jpeg"></li>
+                    <li><img src="images/gallery/Cupcakes/pink_birds.png"></li>
+					<li><img src="images/gallery/Cupcakes/red-plane_clouds.png"></li>
+					<li><img src="images/gallery/Cupcakes/star_wars.png"></li>
+                    <li><img src="images/gallery/Cupcakes/starwars_dozen.png"></li>
+					<li><img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"></li>
+					<li><img src="images/gallery/Cupcakes/violet_roses.png"></li>
+				</ul>			
+				<div class="pager">
+				</div>
+			</div>
+		</div>
+            
+            <!--END CUPCAKE SLIDER-->
+        <div id="cupcake-photo">
+            <p id="cupcakes">Cupcakes</p>
         </div>
-        <div class="tier1-photo">
-            <p>Cakes</p>
+        
+        <div id="cake-photo">
+            <p id="cakes">Cakes</p>
         </div>
-        <div class="tier2-photo">
-            <p>Other Sweets</p>
+        <div id="other-photo">
+            <p id="other-sweets">Other Sweets</p>
         </div>
-        <div class="cakepop-photo">
-            <p>Cakepops</p>
+        <div id="cakepop-photo">
+            <p id="cake-pops">Cakepops</p>
         </div>
     </div>
 </div>
+    
     
     <!--FOOTER-->
 <div class="footer">
@@ -77,6 +102,7 @@
     
 
     <script src="js/gallery.js"></script>
+    <script src="js/image-slider.js"></script>
 
 </body>
 </html>

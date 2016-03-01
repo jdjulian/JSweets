@@ -61,6 +61,7 @@
     margin-left: 15%;
 }
 
+
 /**GALLERY**/
 
 .gallery p {
@@ -79,32 +80,45 @@
     margin-bottom: 60px;
 }
 
-.cupcake-photo {
+#cupcake-photo {
     float: left;
     width: 400px;
     height: 250px;
     background-color: #93E1F7;
 }
 
-.tier1-photo {
+#cake-photo {
     float: left;
     width: 400px;
     height: 250px;
     background-color: palegoldenrod;
 }
 
-.tier2-photo {
+#other-photo {
     float: left;
     width: 400px;
     height: 250px;
     background-color: #ab6e81;
 }
 
-.cakepop-photo {
+#cakepop-photo {
     width: 400px;
     height: 250px;
     background-color: #416c78;
     float: left;
+}
+
+#modal{
+	width:100%;
+	height:600px;
+	padding:20px;
+	border:1px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+    background: none;
+    display: none;
+    margin: 0 auto;
 }
 
 
