@@ -1,10 +1,11 @@
-var cakeBox = document.getElementsByClassName("cupcake-photo");
-
-cakeBox.addEventListener("click", expandCake);
-
-function expandCake() {
-    //when the cake box is clicked, expand to a larger box
-    alert("hallelujah!");
+function cakeSlide( ) {
+	var cakeBox = document.getElementsByClassName(“cupcake-photo");
+	var expand = cakeBox.style.width = 500px;
+    //when the cakeBox is clicked, expand to a lerger box
+	cakeBox.addEventListener(“click”, expand);
 };
+
+cakeSlide( );
+
     
     
