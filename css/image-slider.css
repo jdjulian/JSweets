@@ -2,9 +2,6 @@
 	width:70%;
 	height:600px;
 	padding:20px;
-	border:1px solid gray;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
 	box-sizing:border-box;
   background: none;
     display: block;
@@ -17,6 +14,9 @@
 	position: relative;
 	overflow: hidden;
 	height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
 	padding:0;
 	left:0;
 }
@@ -29,6 +29,6 @@
 }
 
 .container img{
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
 }
