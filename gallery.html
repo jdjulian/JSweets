@@ -6,11 +6,27 @@
 	<meta charset="UTF-8">
     <title>JSweets - Gallery</title>
     
-    <!--CSS-->
+     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/image-slider.css">
+    
+    <!--
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/sss.min.js"></script>
+      <script>
+        jQuery(function($) {
+            $('.slider').sss({
+                slideShow : true, // Set to false to prevent SSS from automatically animating.
+                startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+                transition : 400, // Length (in milliseconds) of the fade transition.
+                speed : 3500, // Slideshow speed in milliseconds.
+                showNav : true // Set to false to hide navigation arrows.
+            });
+        });
+    </script>
+    -->
 
 </head>
 <body>
@@ -41,28 +57,31 @@
 <!--GALLERY-->
 <div class="gallery">
     <div class="row">
-        <!--CUPCAKE SLIDER -->
+        <!--CUPCAKE SLIDER 
             <div id="modal">
                 <button id="modal-hide">x</button>
-			<div class="image-slider-wrapper">
-				<ul id="image_slider">
-					<li><img src="images/gallery/Cupcakes/chanel.jpeg"></li>
-					<li><img src="images/gallery/Cupcakes/football.png"></li>
-					<li><img src="images/gallery/Cupcakes/minnie_mouse.png"></li>
-					<li><img src="images/gallery/Cupcakes/ninja_turtles.jpeg"></li>
-                    <li><img src="images/gallery/Cupcakes/pink_birds.png"></li>
-					<li><img src="images/gallery/Cupcakes/red-plane_clouds.png"></li>
-					<li><img src="images/gallery/Cupcakes/star_wars.png"></li>
-                    <li><img src="images/gallery/Cupcakes/starwars_dozen.png"></li>
-					<li><img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"></li>
-					<li><img src="images/gallery/Cupcakes/violet_roses.png"></li>
-				</ul>			
-				<div class="pager">
-				</div>
-			</div>
-		</div>
+                <div class="slider">
+                    <!--Slider Example
+                    <img src="images/image1.jpg" />
+                    <img src="images/image2.jpg" />
+                    <div class="just_text">This one's just text.</div>
+                    <img src="images/image3.jpg" />
+                    <div><img src="images/image4.jpg" /><span class="caption">This one has a caption</span></div>
+                    --
+                    <img src="images/gallery/Cupcakes/chanel.jpeg"></li>
+                    <img src="images/gallery/Cupcakes/football.png"></li>
+                    <img src="images/gallery/Cupcakes/minnie_mouse.png"></li>
+                    <img src="images/gallery/Cupcakes/ninja_turtles.jpeg"></li>
+                    <img src="images/gallery/Cupcakes/pink_birds.png"></li>
+                    <img src="images/gallery/Cupcakes/red-plane_clouds.png"></li>
+                    <img src="images/gallery/Cupcakes/star_wars.png"></li>
+                    <img src="images/gallery/Cupcakes/starwars_dozen.png"></li>
+                    <img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"></li>
+                    <img src="images/gallery/Cupcakes/violet_roses.png"></li>
+                </div>
+		  </div>
             
-            <!--END CUPCAKE SLIDER-->
+            --END CUPCAKE SLIDER-->
         <div id="cupcake-photo">
             <p id="cupcakes">Cupcakes</p>
         </div>
@@ -99,10 +118,7 @@
         <p>info@jsweets.com 123-456-7890</p>
     </div>
 </div>
-    
 
-    <script src="js/gallery.js"></script>
-    <script src="js/image-slider.js"></script>
-
+     <script src="js/gallery.js"></script>
 </body>
 </html>
