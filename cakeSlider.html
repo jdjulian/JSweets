@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    <title>JSweets - Gallery</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/sss.min.js"></script>
+   
+
+    <script>
+        jQuery(function($) {
+            $('.slider').sss({
+                slideShow : true, // Set to false to prevent SSS from automatically animating.
+                startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+                transition : 400, // Length (in milliseconds) of the fade transition.
+                speed : 3500, // Slideshow speed in milliseconds.
+                showNav : true // Set to false to hide navigation arrows.
+            });
+        });
+    </script>
+</head>
+    
+<body>
+
+<!--NAV-->
+<div class="nav">
+    <div class="row">
+    <div class="about-gallery">
+        <ul>
+            <li><a href="about.html" class="about">About</a></li>
+            <li><a href="gallery.html" class="gallery">Gallery</a></li>
+        </ul>
+    </div>
+    <div class="logo">
+
+        <a href="index.html" class="logo-link"><img src="images/landing/Logo3.gif" alt="logo" class="logo" /></a>
+
+    </div>
+    <div class="pricing-order">
+        <ul>
+            <li><a href="pricing.html" class="pricing">Pricing</a></li>
+            <li><a href="order.html" class="order">Order</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+
+<!--Cupcake Slider-->
+<div class="gallery">
+    <div class="row">
+        <button id="modal-hide">x</button>
+        <div class="slider">
+            <!--Slider Example
+            <img src="images/image1.jpg" />
+            <img src="images/image2.jpg" />
+            <div class="just_text">This one's just text.</div>
+            <img src="images/image3.jpg" />
+            <div><img src="images/image4.jpg" /><span class="caption">This one has a caption</span></div>
+            -->
+            <img src="images/gallery/Cakes/babyBoy_two_lightBlue.jpg"</li>
+            <img src="images/gallery/Cakes/blackjack_one_white.png"></li>
+            <img src="images/gallery/Cakes/disc_one_white.png"></li>
+            <img src="images/gallery/Cakes/dragon_one_green.png"></li>
+            <img src="images/gallery/Cakes/hearts_one_purple.png"></li>
+            <img src="images/gallery/Cakes/lilo-stitch_one-blue.jpeg"></li>
+            <img src="images/gallery/Cakes/minnie_two_pink.jpg"></li>
+            <img src="images/gallery/Cakes/minnie_two_skirt.png"></li>
+            <img src="images/gallery/Cakes/nurse_three_pink.png"></li>
+            <img src="images/gallery/Cakes/roses_two_white.png"></li>
+            <img src="images/gallery/Cakes/squirrels_two_purple.png"></li>
+            <img src="images/gallery/Cakes/sushi_one_blue.png"></li>
+            <img src="images/gallery/Cakes/thanksgiving_one_white.png"></li>
+            <img src="images/gallery/Cakes/tre-leches_one_white.png"></li>
+         
+        </div>
+    </div>
+</div>
+    
+<!--FOOTER-->
+<div class="footer">
+    <div class="copyright">
+        <p> &copy; <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script>. Jsweets - All Rights Reserved. </p>
+    </div>
+    <div class="social-media">
+        <ul class="inline-list right">
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p>info@jsweets.com 123-456-7890</p>
+    </div>
+</div>
+
+
+</body>
+</html>
