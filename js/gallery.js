@@ -11,9 +11,7 @@ var otherSweets = document.getElementById("other-sweets");
 // slider modal 
 /**var modal = document.getElementById("modal");
 
-var hideButton = document.getElementById('modal-hide');
-
-hideButton.addEventListener('click', function hideModal() {
+var hideButton = document.getElementById('modal-hide').addEventListener('click', function hideModal() {
     modal.style.display = 'none';
 });
 
@@ -36,7 +34,7 @@ var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("cl
     cakeBox.style.display = "none";
     cakePopBox.style.display = "none";
     otherSweetsBox.style.display = "none"; 
-});
+});\
 
 var cakeSlide = document.getElementById("cake-photo").addEventListener("click", function showCakeSlide() {
 	cakeBox.style.width = "800px";

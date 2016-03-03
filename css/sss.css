@@ -7,21 +7,21 @@
 	overflow: hidden;
 }
 
-.ssslide {
+.ssslider {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: none;
+	display: block;
 	overflow: hidden;
 }
 
-.ssslide img {
+.slider img {
 	max-width: 100%;
 	height: auto;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	position: relative;
 	display: block;
@@ -31,6 +31,7 @@
 	width: 25px;
 	height: 100%;
 	margin: 0;
+    display: none;
 	position: absolute;
 	top: 0;
 	background: url('images/arr.png') no-repeat;
