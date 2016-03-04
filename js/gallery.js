@@ -8,6 +8,7 @@ var cakePopBox = document.getElementById("cakepop-photo");
 var cakePops = document.getElementById("cake-pops");
 var otherSweetsBox = document.getElementById("other-photo");
 var otherSweets = document.getElementById("other-sweets");
+
 // slider modal 
 /**var modal = document.getElementById("modal");
 
@@ -34,7 +35,7 @@ var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("cl
     cakeBox.style.display = "none";
     cakePopBox.style.display = "none";
     otherSweetsBox.style.display = "none"; 
-});\
+});
 
 var cakeSlide = document.getElementById("cake-photo").addEventListener("click", function showCakeSlide() {
 	cakeBox.style.width = "800px";
