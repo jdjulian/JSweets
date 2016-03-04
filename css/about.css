@@ -8,9 +8,8 @@ button:hover {
 }
 
 /** NAV **/
-.about:hover, .gallery:hover, .pricing:hover, .order:hover {
+ .gallery:hover, .pricing:hover, .order:hover {
 	color: #93E1F7;
-    font-size: 150%;
 }
 
 .logo:hover {

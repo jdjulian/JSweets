@@ -1,13 +1,7 @@
 /** NAV **/
 
-.about:hover, .gallery:hover, .pricing:hover, .order:hover {
+.about:hover, .gallery:hover, .pricing:hover {
 	color: #93E1F7;
-    font-size: 150%;
-}
-
-.logo:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .nav {

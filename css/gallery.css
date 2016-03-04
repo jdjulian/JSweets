@@ -1,13 +1,8 @@
 
 /** NAV **/
-.about:hover, .gallery:hover, .pricing:hover, .order:hover {
+.about:hover, .pricing:hover, .order:hover {
 	color: #93E1F7;
-    font-size: 150%;
-}
-
-.logo:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+    
 }
 
 .nav {
@@ -99,57 +94,73 @@
 
 #cupcake-photo {
     float: left;
-    width: 400px;
-    height: 250px;
-    background-color: #93E1F7;
+    width: 390px;
+    height: 240px;
+    background: url('/images/gallery/Cupcakes/pink_birds.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
 
-#cupcake-photo:hover {
+/**#cupcake-photo:hover {
     content: url("/images/gallery/Cupcakes/pink_birds.png"); 
     display: block;
-}
+}**/
 
 #cake-photo {
     float: left;
-    width: 400px;
-    height: 250px;
-    background-color: palegoldenrod;
+    width: 390px;
+    height: 240px;
+    background: url('/images/gallery/Cakes/roses_two_white.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
 
-#cake-photo:hover {
+/**#cake-photo:hover {
     content: url("/images/gallery/Cakes/minnie_two_pink.jpg"); 
     width: 50%;
     display: block;
     margin: 0 auto;
-}
+}**/
 
 #other-photo {
     float: left;
-    width: 400px;
-    height: 250px;
-    background-color: #ab6e81;
+    width: 390px;
+    height: 240px;
+    background: url('/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
 }
 
-#other-photo:hover {
+/**#other-photo:hover {
     content: url("/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg"); 
     width: 50%;
     display: block;
     margin: 0 auto;
-}
+}**/
 
 
 #cakepop-photo {
-    width: 400px;
-    height: 250px;
-    background-color: #416c78;
+    width: 390px;
+    height: 240px;
+    background: url('/images/gallery/Cakepops/dots_stripes_white.JPG');
+    background-size: 175%;
+    background-position: center center;
+    background-repeat: no-repeat;
     float: left;
+    border: 5px solid white;
 }
 
-#cakepop-photo:hover {
+/**#cakepop-photo:hover {
     content: url("/images/gallery/Cakepops/dots_stripes_white.JPG"); 
     display: block;
     margin: 0 auto;
-}
+}**/
 
 #modal{
 	width:100%;
