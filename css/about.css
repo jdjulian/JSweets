@@ -48,10 +48,7 @@ button:hover {
 }
 
 .rolling-pin{
-    transform: scale(.83);  
-}
-.rolling-pin:hover{
-    transform: scale(1); 
+    transform: scale(1);  
     padding-left: 5%;
 }
 

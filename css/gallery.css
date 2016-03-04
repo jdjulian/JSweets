@@ -40,13 +40,9 @@
 }
 
 .rolling-pin{
-    transform: scale(.9); 
-    float: right;
-    margin-right: 14%
-}
-
-.rolling-pin:hover{
     transform: scale(1); 
+    float: right;
+    margin-right: 15%
 }
 
 .logo {

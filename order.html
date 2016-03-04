@@ -41,7 +41,7 @@
 </div>
     
     
-    <!--ORDER-->
+    <!--ORDER-FORM-->
 <div class="order">
     <div class="row">
         <div class="contact">
@@ -51,16 +51,20 @@
                     First Name<br>
                     <input type="text" name="firstname"><br><br>
                     Email (Required)<br>
-                    <input type="email" name="email">                   </form>
+                    <input type="text" name="email">                   
+                </form>
             </div>
             <div class="last">
                 <form class="right">
                     Last Name<br>
                     <input type="text" name="lastname"><br><br>
                     Email (Required)<br>
-                    <input type="text" name="phone">                     </form>
+                    <input type="text" name="phone">                     
+                </form>
             </div>   
         </div>
+        
+        <!--1. WHAT WOULD YOU LIKE TO ORDER?-->
         <div class="what-to-order">
             <h3>1. What would you like to order</h3><br>
                 <ul>
@@ -75,10 +79,10 @@
                 </form>
         </div>
 
+        <!--2. CAKE DESIGN-->
         <div class="custom">
+        <div class="padding">
             <div class="design">
-                
-<!--CAKE DESIGNS-->
                 <h4>2. Design</h4> 
                     <p>Size</p> 
                     <form name="size">
@@ -120,8 +124,10 @@
                 <form class="about-design">
                     <input type="text" name="about-design"></form>
             </div>
+            </div>
 
 <!--CAKE FLAVOR-->
+            <div class="padding">
             <div class="flavor">
                 <h4>3. Pick a flavor</h4>
                 <p>Cake</p> 
@@ -175,7 +181,10 @@
                 <form class="about-design">
                     <input type="text" name="about-design"></form>
             </div>
-            <!--SELECT A DATE-->
+        </div>
+            
+            <!--4.SELECT A DELIVERY DATE-->
+        <div class="padding">
             <div class="date">
                 <h4>4. Select a Delivery Date</h4>
                 <p>Month</p>
@@ -242,14 +251,16 @@
                 
                 <p>Delivery instructions:</p>
                 <form class="about-design">
-                    <input type="text" name="about-design"></form>
-                
+                    <input type="text" name="about-design"></form>    
             </div>
         </div>
-        </div>
+    </div>
+        
+        <!--SUBMIT-->
         <div class="Submt">
             <button>Submit Request</button>
         </div>
+    </div>
 </div>
 
     <!--FOOTER-->
