@@ -34,7 +34,7 @@ var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("cl
     cakeBox.style.display = "none";
     cakePopBox.style.display = "none";
     otherSweetsBox.style.display = "none"; 
-});\
+});
 
 var cakeSlide = document.getElementById("cake-photo").addEventListener("click", function showCakeSlide() {
 	cakeBox.style.width = "800px";

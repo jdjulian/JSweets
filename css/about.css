@@ -1,3 +1,36 @@
+ html, body{
+   overflow-x: hidden;
+ }
+
+.nav, .container, .footer {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+
+.nav:before,
+.nav:after,
+.container:before,
+.container:after,
+.footer:before,
+.footer:after{
+   content: " ";
+   display: table;
+ }
+
+.nav:after,
+.container:after,
+.footer:after {
+   clear: both;
+ }
+
+button:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .about-gallery > li:first-child {
     color: #93E1F7;
 }
@@ -36,14 +69,14 @@ button:hover {
     text-decoration: none;
 }
 
-.about-gallery {
-    float: left;
-    width: 33.3333%;
-}
-
 .rolling-pin{
     transform: scale(1);  
     padding-left: 5%;
+}
+
+.about-gallery {
+    float: left;
+    width: 33.3333%;
 }
 
 .logo {
@@ -78,60 +111,6 @@ button:hover {
     margin-right: 30%;
     margin-left: 15%;
 }
-
-/**
-.nav {
-    overflow: auto;
-    width: 100%;
-}
-.nav ul li {
-    display: inline;
-    list-style-type: none;
-    clear:both;
-
-}
-.nav ul li a{
-    font-size: 18px;
-    font-family: "Avenir Next";
-    color: #416c78;
-    text-decoration: none;
-}
-.about-gallery {
-    float: left;
-    width: 33.3333%;
-}
-.about-gallery ul {
-    margin-left: 33.3333%;
-    padding-top: 30%;
-}
-
-.about-gallery li:nth-child(2) {
-    margin-left: 50%;
-}
-
-.pricing-order {
-    float: left;
-    width: 33.3333%;
-}
-.pricing-order ul {
-    display: block;
-    margin-right: 33.3333%;
-    padding-top: 30%;
-}
-
-.pricing-order li:first-child {
-    margin-right: 50%;
-}
-.logo {
-    float: left;
-    width: 33.3333%;
-}
-.logo img {
-    margin-left: 20%;
-    margin-right: auto; 
-    width: 65%;
-}
-**/
 
 /**MEET THE OWNER**/
 .container {
