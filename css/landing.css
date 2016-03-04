@@ -1,5 +1,57 @@
+ html, body{
+   overflow-x: hidden;
+ }
+
+.nav, .hero, .how, .testimonials, .pricing-div, .footer {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+
+.nav:before,
+.nav:after,
+.hero:before,
+.hero:after,
+.how:before,
+.how:after,
+.testimonials:before,
+.testimonials:after,
+.pricing-div:before,
+.pricing div:after,
+.footer:before,
+.footer:after{
+   content: " ";
+   display: table;
+ }
+
+.nav:after,
+.hero:after,
+.how:after,
+.testimonials:after,
+.pricing div:after,
+.footer:after {
+   clear: both;
+ }
+
+button:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 
 /** NAV **/
+.about:hover, .gallery:hover, .pricing:hover, .order:hover {
+	color: #93E1F7;
+    font-size: 150%;
+}
+
+.logo:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 .nav {
     width: 100%;
 }
