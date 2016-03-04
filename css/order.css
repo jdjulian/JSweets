@@ -1,13 +1,7 @@
 /** NAV **/
 
-.about:hover, .gallery:hover, .pricing:hover, .order:hover {
+.about:hover, .gallery:hover, .pricing:hover {
 	color: #93E1F7;
-    font-size: 150%;
-}
-
-.logo:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .nav {
@@ -155,6 +149,7 @@ h3 {
     height: 20px;
 }
 
+/**WHAT TO ORDER**/
 .what-to-order {
     width: 100%;
     display: block;
@@ -218,6 +213,14 @@ h3 {
     background: pink;
 }
 
+.padding {
+    width: 33.3333%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
 .custom form {
     display: table-cell;
 }
@@ -249,18 +252,7 @@ select {
     color: palevioletred;
 }
 
-.about-design input {
-    width: 200px;
-    height: 100px;  
-}
-
-.padding {
-    width: 33.3333%;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-}
+/** DESIGN**/
 
 .design {
     width: 100%;
@@ -268,6 +260,21 @@ select {
     margin: 0 auto;
     background: pink;
 }
+
+.about-design input {
+    width: 200px;
+    height: 100px;  
+}
+
+.about-design form {
+    width: 100px;
+}
+
+.design input[type="radio"]{
+    display: inline;
+    width: auto;
+}
+
 
 .flavor {
     width: 100%;
@@ -309,14 +316,7 @@ button {
     margin-bottom: 20px;
 }
 
-.about-design form {
-    width: 100px;
-}
 
-.design input[type="radio"]{
-    display: inline;
-    width: auto;
-}
 
 .flavor input[type="radio"]{
     display: inline;
