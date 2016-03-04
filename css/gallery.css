@@ -1,8 +1,36 @@
+ html, body{
+   overflow-x: hidden;
+ }
+
+.nav, .container, .footer {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+
+.nav:before,
+.nav:after,
+.container:before,
+.container:after,
+.footer:before,
+.footer:after{
+   content: " ";
+   display: table;
+ }
+
+.nav:after,
+.container:after,
+.footer:after {
+   clear: both;
+ }
+
+
 
 /** NAV **/
 .about:hover, .pricing:hover, .order:hover {
-	color: #93E1F7;
-    
+	color: #93E1F7; 
 }
 
 .nav {
@@ -76,14 +104,14 @@
 
 /**GALLERY**/
 
-.gallery p {
+.container p {
     color: ghostwhite;
     font-size: 34px;
     font-family: Avenir Next;
     text-align: center;
     margin-top: 25%;
 }
-.gallery .row {
+.container .row {
     width: 800px;
     height: 500px;
     display: block;
@@ -96,7 +124,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background: url('/images/gallery/Cupcakes/pink_birds.png');
+    background-image: url('/images/gallery/Cupcakes/pink_birds.png');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -112,7 +140,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background: url('/images/gallery/Cakes/roses_two_white.png');
+    background-image: url('/images/gallery/Cakes/roses_two_white.png');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -130,7 +158,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background: url('/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg');
+    background-image: url('/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg');
     background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
@@ -148,7 +176,7 @@
 #cakepop-photo {
     width: 390px;
     height: 240px;
-    background: url('/images/gallery/Cakepops/dots_stripes_white.JPG');
+    background-image: url('/images/gallery/Cakepops/dots_stripes_white.JPG');
     background-size: 175%;
     background-position: center center;
     background-repeat: no-repeat;

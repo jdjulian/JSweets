@@ -1,3 +1,32 @@
+ html, body{
+   overflow-x: hidden;
+ }
+
+.nav, .container, .footer {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+
+.nav:before,
+.nav:after,
+.container:before,
+.container:after,
+.footer:before,
+.footer:after{
+   content: " ";
+   display: table;
+ }
+
+.nav:after,
+.container:after,
+.footer:after {
+   clear: both;
+ }
+
+
 button:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -7,7 +36,6 @@ button:hover {
 .about:hover, .gallery:hover, .order:hover {
 	color: #93E1F7;
 }
-
 
 .nav {
     width: 100%;
@@ -78,7 +106,7 @@ button:hover {
 
 
 /**PRICING**/
-.pricing .row {
+.container .row {
     width: 70%;
     display: block;
     margin: 0 auto;
@@ -87,7 +115,7 @@ button:hover {
     overflow: auto;
 }
 
-.pricing img {
+.container img {
     display: block;
     margin: auto; 
 }
@@ -171,7 +199,7 @@ h4 {
     color: #416c78
 }
 
-.pricing a {
+.container a {
   text-decoration: none;
 }
 
