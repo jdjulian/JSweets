@@ -26,11 +26,13 @@
    clear: both;
  }
 
-
+.gallery {
+  display: none;
+}
 
 /** NAV **/
 .about:hover, .pricing:hover, .order:hover {
-	color: #93E1F7; 
+	color: #93E1F7;
 }
 
 .nav {
@@ -63,7 +65,7 @@
 }
 
 .rolling-pin{
-    transform: scale(1); 
+    transform: scale(1);
     float: right;
     margin-right: 15%
 }
@@ -132,7 +134,7 @@
 }
 
 /**#cupcake-photo:hover {
-    content: url("/images/gallery/Cupcakes/pink_birds.png"); 
+    content: url("/images/gallery/Cupcakes/pink_birds.png");
     display: block;
 }**/
 
@@ -148,7 +150,7 @@
 }
 
 /**#cake-photo:hover {
-    content: url("/images/gallery/Cakes/minnie_two_pink.jpg"); 
+    content: url("/images/gallery/Cakes/minnie_two_pink.jpg");
     width: 50%;
     display: block;
     margin: 0 auto;
@@ -166,7 +168,7 @@
 }
 
 /**#other-photo:hover {
-    content: url("/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg"); 
+    content: url("/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg");
     width: 50%;
     display: block;
     margin: 0 auto;
@@ -185,7 +187,7 @@
 }
 
 /**#cakepop-photo:hover {
-    content: url("/images/gallery/Cakepops/dots_stripes_white.JPG"); 
+    content: url("/images/gallery/Cakepops/dots_stripes_white.JPG");
     display: block;
     margin: 0 auto;
 }**/
@@ -206,7 +208,7 @@
 
 /**FOOTER**/
 
-.footer { background-color: #ab6e81; 
+.footer { background-color: #ab6e81;
     overflow: auto;
     width: 100%;
 }
@@ -237,7 +239,7 @@
     text-align: center;
     margin-left: 30%;
 }
-    
+
 .social-media ul li {
     display: inline-block;
     list-style-type: none;
@@ -251,4 +253,3 @@
     text-align: center;
     margin-right: 10%;
 }
-

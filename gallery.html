@@ -10,14 +10,12 @@
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
      <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 
     <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="js/sss.min.js"></script>
 </head>
 <body>
 
@@ -48,11 +46,30 @@
 <!--GALLERY-->
 <div class="container">
     <div class="row">
+      <div id="cupcake-slider">
+        <div class="gallery">
+          <div class="row">
+          <div class="slider">
+              <img src="images/gallery/Cupcakes/chanel.jpeg"/>
+              <img src="images/gallery/Cupcakes/football.png"/>
+              <img src="images/gallery/Cupcakes/minnie_mouse.png"/>
+              <img src="images/gallery/Cupcakes/ninja_turtles.jpeg"/>
+              <img src="images/gallery/Cupcakes/pink_birds.png"/>
+              <img src="images/gallery/Cupcakes/red-plane_clouds.png"/>
+              <img src="images/gallery/Cupcakes/star_wars.png"/>
+              <img src="images/gallery/Cupcakes/starwars_dozen.png"/>
+              <img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"/>
+              <img src="images/gallery/Cupcakes/violet_roses.png"/>
+              <div class="sssprev"></div>
+              <div class="sssnext"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
             <!--END CUPCAKE SLIDER-->
         <div id="cupcake-photo">
             <p id="cupcakes">Cupcakes</p>
-            </div>
         </div>
 
         <div id="cake-photo">
@@ -70,8 +87,9 @@
 
 
 <!-- sliders live below -->
-<div class="gallery">
+<!-- <div class="gallery">
     <div class="row">
+      <div id="cupcake-slider">
         <div class="slider">
             <img src="images/gallery/Cupcakes/chanel.jpeg"/>
             <img src="images/gallery/Cupcakes/football.png"/>
@@ -86,8 +104,9 @@
             <div class="sssprev"></div>
             <div class="sssnext"></div>
         </div>
+      </div>
     </div>
-</div>
+</div> -->
 
 <div class="gallery">
     <div class="row">
@@ -156,17 +175,34 @@
     </div>
 </div>
 
-     <script src="js/gallery.js"></script>
-     <script>
-         jQuery(function($) {
-             $('.slider').sss({
-                 slideShow : true, // Set to false to prevent SSS from automatically animating.
-                 startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
-                 transition : 400, // Length (in milliseconds) of the fade transition.
-                 speed : 3500, // Slideshow speed in milliseconds.
-                 showNav : true // Set to false to hide navigation arrows.
-             });
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="js/sss.min.js"></script>
+
+  <script src="js/gallery.js"></script>
+  <script>
+    $("#cupcake-photo").on('click', function(){
+      $("#cupcake-slider").find('.gallery').css('display', 'block');
+      $(function($) {
+         $('.slider').sss({
+             slideShow : true, // Set to false to prevent SSS from automatically animating.
+             startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+             transition : 400, // Length (in milliseconds) of the fade transition.
+             speed : 3500, // Slideshow speed in milliseconds.
+             showNav : true // Set to false to hide navigation arrows.
          });
-     </script>
+       });
+    });
+    $(function($) {
+       $('.slider').sss({
+           slideShow : true, // Set to false to prevent SSS from automatically animating.
+           startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+           transition : 400, // Length (in milliseconds) of the fade transition.
+           speed : 3500, // Slideshow speed in milliseconds.
+           showNav : true // Set to false to hide navigation arrows.
+       });
+     });
+  </script>
+
 </body>
 </html>

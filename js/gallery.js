@@ -1,5 +1,5 @@
 var cupcakeBox = document.getElementById("cupcake-photo");
-var cupcakes = document.getElementById("cupcakes"); 
+var cupcakes = document.getElementById("cupcakes");
 
 var cakeBox = document.getElementById("cake-photo");
 var cakes = document.getElementById("cakes");
@@ -8,7 +8,7 @@ var cakePopBox = document.getElementById("cakepop-photo");
 var cakePops = document.getElementById("cake-pops");
 var otherSweetsBox = document.getElementById("other-photo");
 var otherSweets = document.getElementById("other-sweets");
-// slider modal 
+// slider modal
 /**var modal = document.getElementById("modal");
 
 var hideButton = document.getElementById('modal-hide').addEventListener('click', function hideModal() {
@@ -27,14 +27,14 @@ var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("cl
     otherSweetsBox.style.display = "none";
 });**/
 
-var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("click", function showCupcakeSlide() {
-	cupcakeBox.style.width = "800px";
-    cupcakeBox.style.height = "500px";
-    cupcakes.style.display = "none";
-    cakeBox.style.display = "none";
-    cakePopBox.style.display = "none";
-    otherSweetsBox.style.display = "none"; 
-});
+// var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("click", function showCupcakeSlide() {
+// 	cupcakeBox.style.width = "800px";
+//     cupcakeBox.style.height = "500px";
+//     cupcakes.style.display = "none";
+//     cakeBox.style.display = "none";
+//     cakePopBox.style.display = "none";
+//     otherSweetsBox.style.display = "none";
+// });
 
 var cakeSlide = document.getElementById("cake-photo").addEventListener("click", function showCakeSlide() {
 	cakeBox.style.width = "800px";
@@ -43,7 +43,7 @@ var cakeSlide = document.getElementById("cake-photo").addEventListener("click", 
     cupcakeBox.style.display = "none";
     cakePopBox.style.display = "none";
     otherSweetsBox.style.display = "none";
-    
+
 });
 
 var otherSweetSlide = document.getElementById("other-photo").addEventListener("click", function showOtherSlide() {
@@ -52,7 +52,7 @@ var otherSweetSlide = document.getElementById("other-photo").addEventListener("c
     otherSweets.style.display = "none";
     cupcakeBox.style.display = "none";
     cakePopBox.style.display = "none";
-    cakeBox.style.display = "none";   
+    cakeBox.style.display = "none";
 });
 
 var cakePopSlide = document.getElementById("cakepop-photo").addEventListener("click", function cakePopSlide() {
@@ -61,9 +61,5 @@ var cakePopSlide = document.getElementById("cakepop-photo").addEventListener("cl
     cakePops.style.display = "none";
     cupcakeBox.style.display = "none";
     otherSweetsBox.style.display = "none";
-    cakeBox.style.display = "none";   
+    cakeBox.style.display = "none";
 });
-                                                    
-
-    
-    
