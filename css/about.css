@@ -5,8 +5,6 @@
 .nav, .container, .footer {
    margin-right: auto;
    margin-left: auto;
-   padding-left: 15px;
-   padding-right: 15px;
    position: relative;
  }
 
@@ -102,15 +100,14 @@ button:hover {
     max-height: auto;
 }
 
-.about-gallery li:nth-child(2) {
-    margin-left: 30%;
-    margin-right: 15%;
+.about-gallery li:first-child {
+    margin-right: 40%;
 }
 
-.pricing-order li:first-child {
-    margin-right: 30%;
-    margin-left: 15%;
+.pricing-order li:nth-child(2) {
+    margin-left: 40%;
 }
+
 
 /**MEET THE OWNER**/
 .container {
@@ -196,25 +193,36 @@ button {
 
 /**FOOTER**/
 
+.footer .row {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
 .footer { background-color: #ab6e81; 
     overflow: auto;
     width: 100%;
 }
 
 .footer a, .footer p {
-  font-size: 12px;
-  color: #FFFFFF;
-  margin: 0 auto; }
-
-.footer li {
-  margin-left: 10px; }
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-decoration: none;
+}
 
 .footer i:first-child {
-  padding-left: 30px; }
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
 
 .footer .fa {
-  font-size: 20px;
-  margin: 0 auto; }
+    font-size: 20px;
+    margin: 0 auto; 
+    display: block;
+    text-decoration: none;
+    
+}
 
 .copyright, .social-media, .contact {
     width: 33.3333%;
@@ -224,21 +232,18 @@ button {
 .copyright p {
     vertical-align: middle;
     line-height: 50px;
-    text-align: center;
-    margin-left: 30%;
+    text-align: left;
 }
     
 .social-media ul li {
     display: inline-block;
     list-style-type: none;
     clear:both;
-    margin-left: 7%;
 }
 
 .contact p {
     vertical-align: middle;
     line-height: 50px;
-    text-align: center;
-    margin-right: 10%;
+    text-align: right;
 }
 
