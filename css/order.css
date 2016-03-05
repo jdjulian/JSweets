@@ -108,8 +108,6 @@
     margin-left: 40%;
 }
 
-
-
 /**CONTACT FORM**/
 .container .row {
     width: 65%;
@@ -218,10 +216,11 @@ h3 {
     font-size: 14px;
     font-family: Avenir Next;
     color: #416c78;
+    margin: 0 auto;
 }
 
 .container li:first-child {
-    margin-left: 165px;
+    margin-left: 170px;
 }
 
 .container li:nth-child(2) {
@@ -229,7 +228,7 @@ h3 {
 }
 
 .container li:nth-child(3) {
-    margin-left: 105px;
+    margin-left: 110px;
 }
 
 .what-to-order input {
@@ -241,7 +240,7 @@ h3 {
     width: 100%;
     display: block;
     margin: 0 auto;
-    height: 600px;
+    height: 540px;
     overflow: auto;
     background: pink;
 }
@@ -277,11 +276,12 @@ h3 {
 }
 
 select {
-    width: 200px;
+    width: 210px;
     font-size: 15px;
     height: 30px;
     border-color: black;
     color: palevioletred;
+    line-height: normal;
 }
 
 /** DESIGN**/
@@ -294,15 +294,6 @@ select {
     padding-left: 2.5%;
 }
 
-.about-design input {
-    width: 200px;
-    height: 100px;  
-}
-
-.about-design form {
-    width: 100px;
-}
-
 .design input {
     float: left;
     clear: left;
@@ -311,9 +302,14 @@ select {
 
 .design label {
     float: left;
-    vertical-align: middle;
-    line-height: normal;
+    line-height: 30px;
 }   
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
 
 .flavor {
     width: 100%;
@@ -322,6 +318,9 @@ select {
     background: pink;
 }
 
+.flavor label {
+    line-height: 25px;
+}
 .date {
     width: 100%;
     display: block;
