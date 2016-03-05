@@ -44,6 +44,7 @@ button:hover {
  .gallery:hover, .pricing:hover, .order:hover {
 	color: #93E1F7;
 }
+
 .nav {
     width: 100%;
 }

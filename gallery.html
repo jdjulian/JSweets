@@ -5,32 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
     <title>JSweets - Gallery</title>
-    
+
     <!--Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    
+
      <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    
-   
+
+
     <link rel="stylesheet" href="css/sss.css" type="text/css" media="all">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/sss.min.js"></script>
-      <script>
-        jQuery(function($) {
-            $('.slider').sss({
-                slideShow : true, // Set to false to prevent SSS from automatically animating.
-                startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
-                transition : 400, // Length (in milliseconds) of the fade transition.
-                speed : 3500, // Slideshow speed in milliseconds.
-                showNav : true // Set to false to hide navigation arrows.
-            });
-        });
-    </script>
-  
-
 </head>
 <body>
 
@@ -57,42 +44,71 @@
     </div>
     </div>
 </div>
-    
+
 <!--GALLERY-->
 <div class="container">
     <div class="row">
-        <!--CUPCAKE SLIDER
-            <div id="modal">
-                <div class="slider">
-                    <img src="images/gallery/Cupcakes/chanel.jpeg"></li>
-                    <img src="images/gallery/Cupcakes/football.png"></li>
-                    <img src="images/gallery/Cupcakes/minnie_mouse.png"></li>
-                    <img src="images/gallery/Cupcakes/ninja_turtles.jpeg"></li>
-                    <img src="images/gallery/Cupcakes/pink_birds.png"></li>
-                    <img src="images/gallery/Cupcakes/red-plane_clouds.png"></li>
-                    <img src="images/gallery/Cupcakes/star_wars.png"></li>
-                    <img src="images/gallery/Cupcakes/starwars_dozen.png"></li>
-                    <img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"></li>
-                    <img src="images/gallery/Cupcakes/violet_roses.png"></li>
-                </div>
-		  </div>
-            
-            --END CUPCAKE SLIDER-->
+
+            <!--END CUPCAKE SLIDER-->
         <div id="cupcake-photo">
+            <!--<div class="slider">
+                <img src="images/gallery/Cupcakes/chanel.jpeg"/>
+                <img src="images/gallery/Cupcakes/football.png"/>
+                <img src="images/gallery/Cupcakes/minnie_mouse.png"/>
+                <img src="images/gallery/Cupcakes/ninja_turtles.jpeg"/>
+                <img src="images/gallery/Cupcakes/pink_birds.png"/>
+                <img src="images/gallery/Cupcakes/red-plane_clouds.png"/>
+                <img src="images/gallery/Cupcakes/star_wars.png"/>
+                <img src="images/gallery/Cupcakes/starwars_dozen.png"/>
+                <img src="images/gallery/Cupcakes/superbowl_panthers_broncos.png"/>
+                <img src="images/gallery/Cupcakes/violet_roses.png"/>
+                <div class="sssprev"></div>-->
+            <div class="sssnext"></div>
         </div>
-        
+
         <div id="cake-photo">
+            <!--<div class="slider">
+                <img src="images/gallery/Cakes/babyBoy_two_lightBlue.jpg"</li>
+                <img src="images/gallery/Cakes/blackjack_one_white.png"></li>
+                <img src="images/gallery/Cakes/disc_one_white.png"></li>
+                <img src="images/gallery/Cakes/dragon_one_green.png"></li>
+                <img src="images/gallery/Cakes/hearts_one_purple.png"></li>
+                <img src="images/gallery/Cakes/lilo-stitch_one-blue.jpeg"></li>
+                <img src="images/gallery/Cakes/minnie_two_pink.jpg"></li>
+                <img src="images/gallery/Cakes/minnie_two_skirt.png"></li>
+                <img src="images/gallery/Cakes/nurse_three_pink.png"></li>
+                <img src="images/gallery/Cakes/roses_two_white.png"></li>
+                <img src="images/gallery/Cakes/squirrels_two_purple.png"></li>
+                <img src="images/gallery/Cakes/sushi_one_blue.png"></li>
+                <img src="images/gallery/Cakes/thanksgiving_one_white.png"></li>
+                <img src="images/gallery/Cakes/tre-leches_one_white.png"></li>
+            </div>-->
         </div>
-        
+
         <div id="other-photo">
+            <!--<div class="slider">
+                <img src="images/gallery/Other_Sweets/FullSizeRender%20(1).jpg"></li>
+                <img src="images/gallery/Other_Sweets/FullSizeRender%20(4).jpg"></li>
+                <img src="images/gallery/Other_Sweets/Screenshot%202016-02-22%2020.25.38.png"></li>
+            </div>  -->  
         </div>
-        
+
         <div id="cakepop-photo">
+            <!--<div class="slider">
+                <img src="images/gallery/Cakepops/airplane_clouds_blue.jpg"></li>
+                <img src="images/gallery/Cakepops/blue_white_glitter.JPG"></li>
+                <img src="images/gallery/Cakepops/dots_stripes_white.JPG"></li>
+                <img src="images/gallery/Cakepops/minnie_pink_red.png"></li>
+                <img src="images/gallery/Cakepops/multicoor_holiday.png"></li>
+                <img src="images/gallery/Cakepops/ornaments-multi.png"></li>
+                <img src="images/gallery/Cakepops/valentines_multi_stripes.png"></li>
+                <img src="images/gallery/Cakepops/wedding_couple_white.png"></li>
+            </div>-->   
         </div>
+
     </div>
 </div>
-    
-    
+
     <!--FOOTER-->
 <div class="footer">
     <div class="copyright">
@@ -114,5 +130,16 @@
 </div>
 
      <script src="js/gallery.js"></script>
+     <script>
+         jQuery(function($) {
+             $('.slider').sss({
+                 slideShow : true, // Set to false to prevent SSS from automatically animating.
+                 startOn : 0, // Slide to display first. Uses array notation (0 = first slide).
+                 transition : 400, // Length (in milliseconds) of the fade transition.
+                 speed : 3500, // Slideshow speed in milliseconds.
+                 showNav : true // Set to false to hide navigation arrows.
+             });
+         });
+     </script>
 </body>
 </html>
