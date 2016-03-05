@@ -2,31 +2,39 @@
    overflow-x: hidden;
  }
 
-.nav, .container, .footer {
+.nav, .container, .row, .custom, .what-to-order, .submit, .footer {
    margin-right: auto;
    margin-left: auto;
-   padding-left: 15px;
-   padding-right: 15px;
    position: relative;
  }
 
 .nav:before,
 .nav:after,
+.row:before,
+.row:after,
 .container:before,
 .container:after,
+.custom:before,
+.custom:after,
+.what-ro-order:before,
+.what-ro-order:after,
+.submit:before,
+.submit:after,
 .footer:before,
 .footer:after{
    content: " ";
    display: table;
  }
 
+.custom,
+.what-to-order,
+.submit,
+.row:after,
 .nav:after,
 .container:after,
 .footer:after {
    clear: both;
  }
-
-
 
 /** NAV **/
 
@@ -76,6 +84,7 @@
 .rolling-pin{
     transform: scale(1); 
     float: right;
+    margin-right: 15px;
 }
 
 .nav ul {
@@ -91,39 +100,21 @@
     max-height: auto;
 }
 
-.about-gallery li:nth-child(2) {
-    margin-left: 30%;
-    margin-right: 15%;
+.about-gallery li:first-child {
+    margin-right: 40%;
 }
 
-.pricing-order li:first-child {
-    margin-right: 30%;
-    margin-left: 15%;
+.pricing-order li:nth-child(2) {
+    margin-left: 40%;
 }
 
-/**FORM**/
-input[type="text"]{
-  border-radius: 4px;
-}
 
-input[type=radio] + label {
-  color: #416c78;
-  font-family: Avenir Next;
-}
 
-form {
-  font-family: Avenir Next;
-  font-size: 14px;
-     color: #416c78;
-}
-
-/**ORDER**/
+/**CONTACT FORM**/
 .container .row {
-    width: 60%;
+    width: 65%;
     display: block;
     margin: 0 auto;
-    height: auto;
-    margin-bottom: 50px;
     overflow: auto;
 }
 
@@ -136,6 +127,52 @@ form {
     margin-bottom: 40px;
 }
 
+.contact input[type="text"]{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.contact form {
+    font-family: Avenir Next;
+    font-size: 15px;
+    color: #416c78;
+    width: 50%;
+}
+
+.contact input {
+    width: 180%;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.contact .right {
+    margin-left: 35px;
+}
+
+.contact .first {
+    float: left;
+    width: 50%;;
+    display: block;
+    margin: 0 auto; 
+    padding-top: 10px;
+}
+
+.contact .last {
+    float: left;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+/**ORDER**/
+
+input[type=radio] + label {
+  color: #416c78;
+  font-family: Avenir Next;
+}
+
+
 h3 {
     font-family: Avenir Next;
     font-size: 18px;
@@ -144,40 +181,6 @@ h3 {
 }
     
 
-.container .first {
-    float: left;
-    width: 50%;;
-    display: block;
-    margin: 0 auto; 
-    padding-top: 10px;
-}
-
-.container .last {
-    float: left;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.first form {
-    width: 300px;
-    height: 110px;
-    display: block;
-    margin: 0 auto;
-}
-
-.last form {
-    width: 300px;
-    height: 110px;
-    display: block;
-    margin: 0 auto;
-    padding-left: 65px;
-}
-.contact input {
-    width: 300px;
-    height: 20px;
-}
 
 /**WHAT TO ORDER**/
 .what-to-order {
@@ -269,15 +272,14 @@ h3 {
 }
 
 .custom p, .custom h4, .custom form, .custom input[type="radio"] {
-    padding-left: 10px;
+    padding-left: 15px;
     text-indent: 15px;
 }
 
 select {
     width: 200px;
-    font-size: 16px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 15px;
+    height: 30px;
     border-color: black;
     color: palevioletred;
 }
@@ -289,6 +291,7 @@ select {
     display: block;
     margin: 0 auto;
     background: pink;
+    padding-left: 2.5%;
 }
 
 .about-design input {
@@ -300,11 +303,17 @@ select {
     width: 100px;
 }
 
-.design input[type="radio"]{
-    display: inline;
-    width: auto;
+.design input {
+    float: left;
+    clear: left;
+    margin-left: 15px;
 }
 
+.design label {
+    float: left;
+    vertical-align: middle;
+    line-height: normal;
+}   
 
 .flavor {
     width: 100%;
@@ -329,7 +338,7 @@ select {
 }
 
 button {
-    width: 200px;
+    width: 30%;
     display: block;
     height: 40px;
     font-size: 14px;
@@ -343,7 +352,7 @@ button {
     font-size: 15px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -361,25 +370,36 @@ button:hover {
 
 /**FOOTER**/
 
+.footer .row {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
 .footer { background-color: #ab6e81; 
     overflow: auto;
     width: 100%;
 }
 
 .footer a, .footer p {
-  font-size: 12px;
-  color: #FFFFFF;
-  margin: 0 auto; }
-
-.footer li {
-  margin-left: 10px; }
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-decoration: none;
+}
 
 .footer i:first-child {
-  padding-left: 30px; }
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
 
 .footer .fa {
-  font-size: 20px;
-  margin: 0 auto; }
+    font-size: 20px;
+    margin: 0 auto; 
+    display: block;
+    text-decoration: none;
+    
+}
 
 .copyright, .social-media, .contact {
     width: 33.3333%;
@@ -389,21 +409,18 @@ button:hover {
 .copyright p {
     vertical-align: middle;
     line-height: 50px;
-    text-align: center;
-    margin-left: 30%;
+    text-align: left;
 }
     
 .social-media ul li {
     display: inline-block;
     list-style-type: none;
     clear:both;
-    margin-left: 7%;
 }
 
 .contact p {
     vertical-align: middle;
     line-height: 50px;
-    text-align: center;
-    margin-right: 10%;
+    text-align: right;
 }
 

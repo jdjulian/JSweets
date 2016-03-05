@@ -16,6 +16,7 @@ var cupcakeSlide = document.getElementById("cupcake-photo").addEventListener("cl
     cakeBox.style.visibility = "hidden";
     cakePopBox.style.visibility = "hidden";
     otherSweetsBox.style.visibility = "hidden";
+
 });
 
 var cakeSlide = document.getElementById("cake-photo").addEventListener("click", function showCakeSlide() {
