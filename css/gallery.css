@@ -126,6 +126,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     border: 5px solid white;
+    border-radius: 10px;
 }
 
 /**#cupcake-photo:hover {
@@ -142,6 +143,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     border: 5px solid white;
+    border-radius: 10px;
 }
 
 /**#cake-photo:hover {
@@ -160,6 +162,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     border: 5px solid white;
+    border-radius: 10px;
 }
 
 /**#other-photo:hover {
@@ -179,6 +182,7 @@
     background-repeat: no-repeat;
     float: left;
     border: 5px solid white;
+    border-radius: 10px;
 }
 
 /**#cakepop-photo:hover {
