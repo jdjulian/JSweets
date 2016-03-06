@@ -139,8 +139,8 @@ h2 {
     display: block;
     margin: 0 auto;
     width: 80%;
-    padding-bottom: 50px;
-    border-radius: 4px 4px; 
+    margin-bottom: 50px;
+    border-radius: 10px; 
 }
 
 .bio {
