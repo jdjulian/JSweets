@@ -19,7 +19,7 @@
 }
 
 .slider img {
-	max-width: 100%;
+	max-width: 75%;
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
@@ -28,13 +28,14 @@
 }
 
 .sssnext, .sssprev {
-	width: 25px;
-	height: 100%;
-	margin: 0;
+	width: 50px;
+	height: 50px;
+	margin-top: -15px;
     display: block;
 	position: absolute;
-	top: 0;
-	background: url('images/arr.png') no-repeat;
+	top: 50%;
+	background-image: url("images/arr.png") no-repeat;
+    z-index:100;
 }
 
 .sssprev {

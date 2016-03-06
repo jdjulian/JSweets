@@ -24,7 +24,9 @@
    clear: both;
  }
 
-
+.gallery {
+    display: none;
+}
 
 /** NAV **/
 .about:hover, .pricing:hover, .order:hover {
@@ -100,7 +102,7 @@
 /**GALLERY**/
 
 .container p {
-    color: ghostwhite;
+    color: black;
     font-size: 34px;
     font-family: Avenir Next;
     text-align: center;
