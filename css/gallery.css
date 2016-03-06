@@ -24,7 +24,9 @@
    clear: both;
  }
 
-
+.gallery {
+    display: none;
+}
 
 /** NAV **/
 .about:hover, .pricing:hover, .order:hover {
@@ -100,7 +102,7 @@
 /**GALLERY**/
 
 .container p {
-    color: ghostwhite;
+    color: black;
     font-size: 34px;
     font-family: Avenir Next;
     text-align: center;
@@ -193,6 +195,10 @@
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
+    background: none;
+    display: block;
+    margin: 0 auto;
+/**from mentormarch5**/
     background: none;
     display: block;
     margin: 0 auto;
