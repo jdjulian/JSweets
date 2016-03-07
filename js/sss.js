@@ -77,7 +77,7 @@ $.fn.sss = function(options) {
 	}
 
 	if (settings.arrows) {
-	slider.show('<div class="sssprev"/>', '<div class="sssnext"/>');
+	slider.show('<span class="sssprev"/>', '<span class="sssnext"/>');
 	}
 
 	next = slider.find('.sssnext'),
