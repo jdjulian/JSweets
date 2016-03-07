@@ -428,22 +428,125 @@ button {
     height: auto;
     display: block;
     margin: 0 auto; }
-}
+}**/
     
-    @media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
+@media (min-width: 750px) and (max-width:970px) {
+    .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+    
+    .about-gallery { width: 40%; }
+
+    .pricing-order { width: 40%; }
+    
+    .logo { width: 20%; }
+    
+    .logo img { 
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 5px;
+    }
+     
+    .about-gallery li:first-child { margin-right: 15%; }
+
+    .pricing-order li:nth-child(2) { margin-left: 15%; }
+    
+    .about-gallery, .pricing-order { padding-bottom: 20px; }
+    
+    .hero h1 { font-size: 28px; }
+    
+    .hero p { font-size: 110%; }
+    
+    .one-third { width: 100%; }
+    
+    button { width: 250px; }
+    
+    .testimonial-image, .testimonial { 
+        width: 100%; 
+        height: auto;
+        float: left;
+    }
+     
+    .testimonial-image img { 
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .testimonials h2 { padding-bottom: 30px; }
+    
+    .testimonials p {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 30px;
+    }
+     
+    .landing-price, .pricing-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+    }
+
+    .pricing-div img { 
+        max-width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 65px;
+}
+
+    
+}
+
+ @media (min-width: 970px) and (max-width: 1040px) {
+     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+     
+     .about-gallery li:first-child { margin-right: 20%; }
+
+     .pricing-order li:nth-child(2) { margin-left: 20%; }
+     
+     .testimonials img { margin-top: 30px; }
+     
+     .pricing-div img { 
+         min-width: 60%;
+         margin-top: 20px;
+     }
+     
+     .footer i:first-child {
+        padding-left: 15px;
+        padding-right: 10px;
+     }
+}
+
+ @media (min-width: 1040px) and (max-width: 1200px) {
+     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+     
+     .about-gallery li:first-child { margin-right: 30%; }
+
+     .pricing-order li:nth-child(2) { margin-left: 30%; }
+     
+     .testimonials img { margin-top: 30px; }
+     
+     .pricing-div img { 
+         min-width: 52%;
+         margin-top: 15px;
+     }
  }
 
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
- }
-
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
- }**/

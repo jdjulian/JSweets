@@ -76,15 +76,9 @@ $.fn.sss = function(options) {
 	animate_slide(target);
 	}
 
-<<<<<<< HEAD
-	//if (settings.arrows) {
-	//slider.append('<div class="sssprev"/>', '<div class="sssnext"/>');
-	//}
-=======
 	if (settings.arrows) {
 	slider.show('<span class="sssprev"/>', '<span class="sssnext"/>');
 	}
->>>>>>> master
 
 	next = slider.find('.sssnext'),
 	prev = slider.find('.sssprev');
