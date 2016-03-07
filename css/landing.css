@@ -417,21 +417,101 @@ button {
 
 
 
-/** MEDIA QUERIES
+/** MEDIA QUERIES **/
 
-@media (max-width: 590px) {
-  .nav .left, .nav .right {
-    display: none; }
-
-  .nav .logo {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto; }
-}**/
+@media (min-width: 400px) {
+    .about-gallery, .pricing-order { 
+        width: 0%;
+        display: none; }
     
+    .logo { 
+        width: 100%;
+    }
+    
+    .logo img { 
+        width: 50%;
+        display: block;
+        margin-left: 25%;
+    }
+    
+    .hero h1 { font-size: 28px; }
+    
+    .hero p { font-size: 100%; }
+    
+    .one-third { width: 100%; }
+    
+    button { width: 250px; }
+    
+    .testimonial-image, .testimonial { 
+        width: 100%; 
+        height: auto;
+        float: left;
+    }
+     
+    .testimonial-image img { 
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .testimonials h2 { padding-bottom: 30px; }
+    
+    .testimonials p {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 30px;
+    }
+     
+    .landing-price, .pricing-image {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pricing-div img { 
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 20px; 
+    }    
+}
+
+
+@media (min-width: 590px){
+    .testimonial-image img { 
+        width: 40%;
+    }
+
+    .pricing-div img { 
+        max-width: 40%;
+    }
+    
+    .footer i:first-child {
+        padding-left: 42px; 
+    }    
+}
+
 @media (min-width: 750px) and (max-width:970px) {
-    .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
     
     .about-gallery { width: 40%; }
 
@@ -485,13 +565,12 @@ button {
     }
      
     .landing-price, .pricing-image {
-    float: left;
-    width: 100%;
-    text-align: center;
+        float: left;
+        width: 100%;
+        text-align: center;
     }
 
     .pricing-div img { 
-        max-width: 40%;
         display: block;
         margin: 0 auto;
         margin-bottom: 50px;
@@ -510,13 +589,10 @@ button {
     
     .footer i:first-child {
         padding-left: 65px;
+    }    
 }
 
-    
-}
-
- @media (min-width: 970px) and (max-width: 1040px) {
-     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+ @media (min-width: 970px) {
      
      .about-gallery li:first-child { margin-right: 20%; }
 
@@ -536,13 +612,10 @@ button {
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
-     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 30%; }
 
      .pricing-order li:nth-child(2) { margin-left: 30%; }
-     
-     .testimonials img { margin-top: 30px; }
      
      .pricing-div img { 
          min-width: 52%;
