@@ -417,18 +417,168 @@ button {
 
 
 
-/** MEDIA QUERIES
+/** MEDIA QUERIES**/
+@media (min-width: 400px) and (max-width:590px) {
+    .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+    
+    .about-gallery, .pricing-order { 
+        width: 0%;
+        display: none;
+    }
+    
+    .logo { width: 100%; }
+    
+    .logo img { 
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .hero h1 { font-size: 28px; }
+    
+    .hero p { font-size: 100%; }
+    
+    .one-third { width: 100%; }
+    
+    button { width: 250px; }
+    
+    .testimonial-image, .testimonial { 
+        width: 90%; 
+        height: auto;
+        float: left;
+    }
+     
+    .testimonial-image img { 
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .testimonials h2 { 
+        padding-bottom: 30px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        margin-right: 20px;
+    }
+    
+    .testimonials p {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 30px;
+    }
+     
+    .landing-price, .pricing-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+    }
 
-@media (max-width: 590px) {
-  .nav .left, .nav .right {
-    display: none; }
+    .pricing-div img { 
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
 
-  .nav .logo {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: 0 auto; }
-}**/
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 20px;
+    }   
+}
+
+
+@media (min-width: 590px) and (max-width:750px) {
+    .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
+    
+    .about-gallery, .pricing-order { 
+        width: 0%;
+        display: none;
+    }
+    
+    .logo { width: 100%; }
+    
+    .logo img { 
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .hero h1 { font-size: 28px; }
+    
+    .hero p { font-size: 100%; }
+    
+    .one-third { width: 100%; }
+    
+    button { width: 250px; }
+    
+    .testimonial-image, .testimonial { 
+        width: 100%; 
+        height: auto;
+        float: left;
+    }
+     
+    .testimonial-image img { 
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .testimonials h2 { padding-bottom: 30px; }
+    
+    .testimonials p {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 30px;
+    }
+     
+    .landing-price, .pricing-image {
+    float: left;
+    width: 100%;
+    text-align: center;
+    }
+
+    .pricing-div img { 
+        max-width: 40%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 42px;
+    }   
+}
     
 @media (min-width: 750px) and (max-width:970px) {
     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
@@ -510,9 +660,7 @@ button {
     
     .footer i:first-child {
         padding-left: 65px;
-}
-
-    
+    }   
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {
