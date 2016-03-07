@@ -1,9 +1,19 @@
-        $("#cupcake-photo").on('click', function(){
+            //$(document).ready(function() {
+	           //$('.overlay').hide();
+                //});
+
+
+             $("#cupcake-photo").on('click', function(){
              $("#cupcake-slider").find('.gallery').css('display', 'block');
              $("#cake-photo").css('display', 'none');
              $("#cakepop-photo").css('display', 'none');
              $("#other-photo").css('display', 'none');
              $("#cupcake-photo").css('display', 'none');
+             //$('.overlay').show();
+             //$('.close').show();  
+	         //$('.close').click(function() {
+		     //$('.overlay').hide();
+	         //});
          });
          
          $("#cake-photo").on('click', function(){
