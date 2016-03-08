@@ -65,7 +65,7 @@
 .rolling-pin{
     transform: scale(1); 
     float: right;
-    margin-right: 7%
+    margin-right: 7%;
 }
 
 .logo {
@@ -289,7 +289,7 @@
 
 /** MEDIA QUERIES**/
 @media (min-width: 400px) and (max-width:590px) {
-    .nav, .footer { width: 100%; }
+    .nav, .footer, .container { width: 100%; }
     
     .about-gallery, .pricing-order { 
         width: 0%;
@@ -304,10 +304,13 @@
     }
     
     #cupcake-photo, #cake-photo, #cakepop-photo, #other-photo { 
-        width: 100%;
-        float: left;
+        width: 45%;
+        height: 45%;
         display: block;
         margin: 0 auto;
+        overflow: auto;
+        clear: both;
+        margin-left: 1.75%
     }
      
     .copyright, .social-media, .contact {
@@ -334,8 +337,8 @@
 }
 
 
-@media (min-width: 590px) and (max-width:750px) {
-    .nav, .footer { width: 100%; }
+@media (min-width: 590px) and (max-width:749px) {
+    .nav, .footer, .container { width: 100%; }
     
     .about-gallery, .pricing-order { 
         width: 0%;
@@ -347,6 +350,16 @@
     .logo img { 
         width: 50%;
         margin-left: 25%;
+    }
+    
+    #cupcake-photo, #cake-photo, #cakepop-photo, #other-photo { 
+        width: 75%;
+        height: 75%;
+        display: block;
+        margin: 0 auto;
+        overflow: auto;
+        clear: both;
+        margin-left: 7.5%;
     }
      
     .copyright, .social-media, .contact {
@@ -373,7 +386,7 @@
 }
     
 @media (min-width: 750px) and (max-width:970px) {
-    .nav, .footer { width: 100%; }
+    .nav, .footer. .container { width: 100%; }
     
     .about-gallery { width: 40%; }
 
@@ -393,6 +406,16 @@
     
     .about-gallery, .pricing-order { padding-bottom: 20px; }
      
+    #cupcake-photo, #cake-photo, #cakepop-photo, #other-photo { 
+        width: 75%;
+        height: 75%;
+        display: block;
+        margin: 0 auto;
+        margin-left: 10%;
+        overflow: auto;
+        clear: both;
+    }
+    
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
@@ -416,8 +439,46 @@
      }   
 }
 
- @media (min-width: 970px) and (max-width: 1040px) {
-     .nav,.footer { width: 100%; }
+@media (min-width: 750px) and (max-width:800px) {
+    .rolling-pin img { 
+        width: 70%; 
+        margin-left: 30px; }
+}
+
+@media (min-width: 800px) and (max-width:849px) {
+    .rolling-pin img { 
+        width: 70%; 
+        margin-right: 5px; }
+}
+
+@media (min-width: 850px) and (max-width:899px) {
+    .rolling-pin img { 
+        width: 70%; 
+        margin-right: 20px; }
+}
+
+@media (min-width: 900px) and (max-width:969px) {
+    .rolling-pin img { 
+        width: 70%; 
+        margin-right: 35px; }
+}
+
+@media (min-width: 970px) and (max-width:971px) {
+    .rolling-pin img { 
+         margin-right: 40px;
+         width: 70%;
+     }
+}
+
+@media (min-width: 971px) and (max-width:1039px) {
+    .rolling-pin img { 
+         margin-right: 50%;
+         width: 80%;
+     }
+}
+
+ @media (min-width: 970px) and (max-width: 1039px) {
+     .nav,.footer, .container { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 20%; }
 
@@ -452,7 +513,15 @@
      .about-gallery li:first-child { margin-right: 30%; }
 
      .pricing-order li:nth-child(2) { margin-left: 30%; }
+}
 
-     .rolling-pin{ padding-left: 6%; }
+@media (min-width: 1100px) and (max-width: 1150px) {
+    .rolling-pin img { 
+        width: 80%; 
+        margin-left: 15px; }
+}
+
+@media (min-width: 1151px) and (max-width: 1200px) {
+    .rolling-pin img { margin-right: 15px; }
 }
 
