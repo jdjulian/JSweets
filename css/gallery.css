@@ -150,11 +150,6 @@
     border-radius: 10px;
 }
 
-/**#cupcake-photo:hover {
-    content: url("/images/gallery/Cupcakes/pink_birds.png"); 
-    display: block;
-}**/
-
 #cake-photo {
     float: left;
     width: 390px;
@@ -167,13 +162,6 @@
     border-radius: 10px;
 }
 
-/**#cake-photo:hover {
-    content: url("/images/gallery/Cakes/minnie_two_pink.jpg"); 
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}**/
-
 #other-photo {
     float: left;
     width: 390px;
@@ -185,13 +173,6 @@
     border: 5px solid white;
     border-radius: 10px;
 }
-
-/**#other-photo:hover {
-    content: url("/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg"); 
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}**/
 
 
 #cakepop-photo {
@@ -206,11 +187,11 @@
     border-radius: 10px;
 }
 
-/**#cakepop-photo:hover {
-    content: url("/images/gallery/Cakepops/dots_stripes_white.JPG"); 
-    display: block;
-    margin: 0 auto;
-}**/
+.close {
+    text-align: right;
+    padding-right: 80px;
+}
+
 
 #modal{
 	width:100%;
