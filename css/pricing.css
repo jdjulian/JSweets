@@ -291,26 +291,44 @@ button {
         margin-left: 20%;
     }
     
+    .cakes h2, .cup-cakes h2, .cakepops h2 {
+        display: block;
+        margin: 0 auto;
+        padding-left: 0%;
+        text-align: center;
+    }
+    
+    .one-tier, .two-tier, .three-tier, 
+    .one-cupcake, .half-cupcakes, .dozen-cupcakes,
+    .one-cakepop, .half-cakepops, .dozen-cakepops { width: 100%; }
+    
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
+     }
+     
     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
+     
+    .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
     .footer i:first-child {
-        padding-left: 20px;
-    }   
+        padding-left: 0px;
+        padding-right: 35px;
+     }   
 }
 
 
-@media (min-width: 590px) and (max-width:750px) {
+@media (min-width: 590px) and (max-width:749px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery, .pricing-order { 
@@ -325,22 +343,40 @@ button {
         margin-left: 25%;
     }
     
+    .one-tier, .two-tier, .three-tier, 
+    .one-cupcake, .half-cupcakes, .dozen-cupcakes,
+    .one-cakepop, .half-cakepops, .dozen-cakepops { width: 100%; }
+    
+    .cakes h2, .cup-cakes h2, .cakepops h2 {
+        display: block;
+        margin: 0 auto;
+        padding-left: 0%;
+        text-align: center;
+    }
+    
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 42px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }   
 }
     
 @media (min-width: 750px) and (max-width:970px) {
@@ -364,22 +400,31 @@ button {
     
     .about-gallery, .pricing-order { padding-bottom: 20px; }
     
+    
+    
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 65px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }   
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {

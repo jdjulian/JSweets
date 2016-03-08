@@ -446,17 +446,24 @@ button:hover {
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
+     
+    .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
     .footer i:first-child {
-        padding-left: 20px;
-    }   
+        padding-left: 0px;
+        padding-right: 35px;
+     }   
 }
 
 
@@ -480,17 +487,24 @@ button:hover {
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 42px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }   
 }
     
 @media (min-width: 750px) and (max-width:970px) {
@@ -519,17 +533,24 @@ button:hover {
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 65px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }   
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {
