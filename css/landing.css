@@ -415,9 +415,6 @@ button {
     text-align: right;
 }
 
-
-
-
 /** MEDIA QUERIES**/
 @media (min-width: 400px) and (max-width:590px) {
     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
@@ -572,7 +569,6 @@ button {
         margin-bottom: 50px;
     }
      
-
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
@@ -583,17 +579,18 @@ button {
         line-height: 50px;
         text-align: center;
     }
-     
-    .footer ul {
+    
+     .footer ul {
          display: block;
          margin: 0 auto;
          text-align: center;
-    }
+     }
      
-    .footer i:first-child {
-        padding-left: 0px;
-        padding-right: 30px;
-    }
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }    
+}
 
 @media (min-width: 750px) and (max-width:970px) {
     
@@ -684,6 +681,7 @@ button {
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {
+     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 20%; }
 
@@ -716,7 +714,7 @@ button {
      .footer i:first-child {
         padding-left: 10px;
         padding-right: 50px;
-     }        
+     }       
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
