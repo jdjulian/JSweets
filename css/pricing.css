@@ -275,4 +275,135 @@ button {
 }
 
 
+/** MEDIA QUERIES**/
+@media (min-width: 400px) and (max-width:590px) {
+    .nav, .footer { width: 100%; }
+    
+    .about-gallery, .pricing-order { 
+        width: 0%;
+        display: none;
+    }
+    
+    .logo { width: 100%; }
+    
+    .logo img { 
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    button { width: 250px; }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 20px;
+    }   
+}
+
+
+@media (min-width: 590px) and (max-width:750px) {
+    .nav, .footer { width: 100%; }
+    
+    .about-gallery, .pricing-order { 
+        width: 0%;
+        display: none;
+    }
+    
+    .logo { width: 100%; }
+    
+    .logo img { 
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    button { width: 250px; }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 42px;
+    }   
+}
+    
+@media (min-width: 750px) and (max-width:970px) {
+    .nav, .footer { width: 100%; }
+    
+    .about-gallery { width: 40%; }
+
+    .pricing-order { width: 40%; }
+    
+    .logo { width: 20%; }
+    
+    .logo img { 
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 5px;
+    }
+     
+    .about-gallery li:first-child { margin-right: 15%; }
+
+    .pricing-order li:nth-child(2) { margin-left: 15%; }
+    
+    .about-gallery, .pricing-order { padding-bottom: 20px; }
+    
+    button { width: 250px; }
+     
+    .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
+    }
+
+    .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .footer i:first-child {
+        padding-left: 65px;
+    }   
+}
+
+ @media (min-width: 970px) and (max-width: 1040px) {
+     .nav,.footer { width: 100%; }
+     
+     .about-gallery li:first-child { margin-right: 20%; }
+
+     .pricing-order li:nth-child(2) { margin-left: 20%; }
+     
+     .footer i:first-child {
+        padding-left: 15px;
+        padding-right: 10px;
+     }
+}
+
+ @media (min-width: 1040px) and (max-width: 1200px) {
+     .nav,.footer { width: 100%; }
+     
+     .about-gallery li:first-child { margin-right: 30%; }
+
+     .pricing-order li:nth-child(2) { margin-left: 30%; }
+     
+ }
+
+
+
 
