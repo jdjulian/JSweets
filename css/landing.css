@@ -429,8 +429,8 @@ button {
     .logo { width: 100%; }
     
     .logo img { 
-        width: 50%;
-        margin-left: 25%;
+        width: 60%;
+        margin-left: 20%;
     }
     
     .hero h1 { font-size: 28px; }
@@ -474,9 +474,9 @@ button {
     }
      
     .landing-price, .pricing-image {
-    float: left;
-    width: 100%;
-    text-align: center;
+        float: left;
+        width: 100%;
+        text-align: center;
     }
 
     .pricing-div img { 
@@ -490,16 +490,23 @@ button {
         width: 100%;
         float: left;
     }
-
+     
     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
+     
+    .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+    }
+     
     .footer i:first-child {
-        padding-left: 20px;
-    }   
+        padding-left: 0px;
+        padding-right: 30px;
+    }     
 }
 
 
@@ -564,20 +571,27 @@ button {
         margin-bottom: 50px;
     }
      
-    .copyright, .social-media, .contact {
+      .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 42px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }    
 }
     
 @media (min-width: 750px) and (max-width:970px) {
@@ -650,20 +664,27 @@ button {
     .copyright, .social-media, .contact {
         width: 100%;
         float: left;
-    }
-
-    .contact p, .copyright p {
+     }
+     
+     .contact p, .copyright p {
         vertical-align: middle;
         line-height: 50px;
         text-align: center;
     }
-    
-    .footer i:first-child {
-        padding-left: 65px;
-    }   
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }    
 }
 
- @media (min-width: 970px) and (max-width: 1040px) {
+ @media (min-width: 970px) and (max-width: 1039px) {
      .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 20%; }
@@ -677,10 +698,27 @@ button {
          margin-top: 20px;
      }
      
-     .footer i:first-child {
-        padding-left: 15px;
-        padding-right: 10px;
+     .copyright, .social-media, .contact {
+        width: 100%;
+        float: left;
      }
+     
+     .contact p, .copyright p {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center;
+    }
+     
+     .footer ul {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+     .footer i:first-child {
+        padding-left: 10px;
+        padding-right: 50px;
+     }       
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
