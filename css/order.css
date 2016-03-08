@@ -308,7 +308,7 @@ select {
 textarea {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 80%;
 }
 
 .flavor {
@@ -426,7 +426,7 @@ button:hover {
 
 
 /** MEDIA QUERIES**/
-@media (min-width: 400px) and (max-width:590px) {
+@media (min-width: 400px) and (max-width:589px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery, .pricing-order { 
@@ -439,6 +439,28 @@ button:hover {
     .logo img { 
         width: 60%;
         margin-left: 20%;
+    }
+    
+    .contact form { width: 98%; }   
+
+    .contact input { width: 100%; }
+
+    .contact .right { margin-left: 0px; }
+
+    .contact .first {
+        float: left;
+        width: 100%;;
+        display: block;
+        margin: 0 auto; 
+        padding-top: 10px;
+    }
+
+    .contact .last {
+        float: left;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
     }
     
     button { width: 250px; }
@@ -467,7 +489,7 @@ button:hover {
 }
 
 
-@media (min-width: 590px) and (max-width:750px) {
+@media (min-width: 590px) and (max-width:749px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery, .pricing-order { 
@@ -480,6 +502,28 @@ button:hover {
     .logo img { 
         width: 50%;
         margin-left: 25%;
+    }
+    
+    .contact form { width: 98%; }   
+
+    .contact input { width: 100%; }
+
+    .contact .right { margin-left: 0px; }
+
+    .contact .first {
+        float: left;
+        width: 100%;;
+        display: block;
+        margin: 0 auto; 
+        padding-top: 10px;
+    }
+
+    .contact .last {
+        float: left;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
     }
     
     button { width: 250px; }
@@ -507,7 +551,7 @@ button:hover {
      }   
 }
     
-@media (min-width: 750px) and (max-width:970px) {
+@media (min-width: 750px) and (max-width:969px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery { width: 40%; }
@@ -528,6 +572,8 @@ button:hover {
     
     .about-gallery, .pricing-order { padding-bottom: 20px; }
     
+    .contact input { width: 166%; }
+    
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
@@ -550,7 +596,14 @@ button:hover {
      .footer i:first-child {
         padding-left: 10px;
         padding-right: 50px;
-     }   
+     }
+    
+    .rolling-pin {
+        width: 25%; 
+        float: right;
+        margin-right: 30%;
+        transform: scale(.8);
+    }
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {
@@ -564,6 +617,15 @@ button:hover {
         padding-left: 15px;
         padding-right: 10px;
      }
+     
+     .contact input { width: 172%; }
+     
+     .rolling-pin{
+        width: 25%; 
+        float: right;
+        margin-right: 25%;
+         transform: scale(.9);
+        }
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
@@ -572,5 +634,14 @@ button:hover {
      .about-gallery li:first-child { margin-right: 30%; }
 
      .pricing-order li:nth-child(2) { margin-left: 30%; }
+     
+     .contact input { width: 175%; }
+     
+     .rolling-pin{
+        width: 25%; 
+        float: none;
+        margin-left: 55%;
+        }
+     }
      
  }
