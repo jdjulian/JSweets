@@ -247,7 +247,6 @@ button {
     text-align: right;
 }
 
-
 /** MEDIA QUERIES**/
 @media (min-width: 400px) and (max-width:590px) {
     .nav, .footer { width: 100%; }
