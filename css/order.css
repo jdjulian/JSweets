@@ -195,45 +195,22 @@ h3 {
     text-align: center;
 }
 
-.what-to-order form {
+.item-box {
     display: block;
     margin: 0 auto;
-    width: 100%;
-    padding-left: 100px;
-    margin-bottom: 50px;
+    width: 70%;
+    overflow: auto;
+    clear: both;
 }
 
-.container ul {
-    display: block;
-    margin: 0 auto;
-    /**padding-top: 50%;**/
-}
-
-.container li {
+.item {
+    width: 31%;
     display: inline-block;
-    list-style-type: none;
-    clear:both;
     font-size: 14px;
     font-family: Avenir Next;
     color: #416c78;
     margin: 0 auto;
-}
-
-.container li:first-child {
-    margin-left: 170px;
-}
-
-.container li:nth-child(2) {
-    margin-left: 120px;
-}
-
-.container li:nth-child(3) {
-    margin-left: 110px;
-}
-
-.what-to-order input {
-    display: inline-block;
-    width: 5%;
+    text-align:center;
 }
 
 .custom {
@@ -243,14 +220,7 @@ h3 {
     height: 540px;
     overflow: auto;
     background: pink;
-}
-
-.padding {
-    width: 33.3333%;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    float: left;
+    padding-top: 20px;
 }
 
 .custom form {
@@ -270,13 +240,13 @@ h3 {
     text-align: left;
 }
 
-.custom p, .custom h4, .custom form, .custom input[type="radio"] {
+/**.custom p, .custom h4, .custom form, .custom input[type="radio"] {
     padding-left: 15px;
     text-indent: 15px;
-}
+}**/
 
 select {
-    width: 210px;
+    width: 220px;
     font-size: 15px;
     height: 30px;
     border-color: black;
@@ -284,35 +254,42 @@ select {
     line-height: normal;
 }
 
+.padding {
+    width: 33.3333%;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
 /** DESIGN**/
 
-.design {
-    width: 100%;
+.design, .flavor, .date {
+    width: 80%;
     display: block;
     margin: 0 auto;
     background: pink;
-    padding-left: 2.5%;
+    /**padding-left: 2.5%;**/
 }
 
-.design input {
+.design input[type="radio"]{
     float: left;
-    clear: left;
-    margin-left: 15px;
 }
 
 .design label {
     float: left;
-    line-height: 30px;
+    line-height: 25px;
+    padding-left: 5px;
 }   
 
 textarea {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 220px;
+    text-align: center;
 }
 
 .flavor {
-    width: 100%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     background: pink;
@@ -320,9 +297,10 @@ textarea {
 
 .flavor label {
     line-height: 25px;
+    margin-right: 20px;
 }
 .date {
-    width: 100%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     background: pink;
@@ -426,7 +404,7 @@ button:hover {
 
 
 /** MEDIA QUERIES**/
-@media (min-width: 400px) and (max-width:590px) {
+@media (min-width: 400px) and (max-width:589px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery, .pricing-order { 
@@ -440,6 +418,36 @@ button:hover {
         width: 60%;
         margin-left: 20%;
     }
+    
+    .contact form { width: 98%; }   
+
+    .contact input { width: 100%; }
+
+    .contact .right { margin-left: 0px; }
+
+    .contact .first {
+        float: left;
+        width: 100%;;
+        display: block;
+        margin: 0 auto; 
+        padding-top: 10px;
+    }
+
+    .contact .last {
+        float: left;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+    .padding {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
     
     button { width: 250px; }
      
@@ -467,7 +475,7 @@ button:hover {
 }
 
 
-@media (min-width: 590px) and (max-width:750px) {
+@media (min-width: 590px) and (max-width:749px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery, .pricing-order { 
@@ -480,6 +488,28 @@ button:hover {
     .logo img { 
         width: 50%;
         margin-left: 25%;
+    }
+    
+    .contact form { width: 98%; }   
+
+    .contact input { width: 100%; }
+
+    .contact .right { margin-left: 0px; }
+
+    .contact .first {
+        float: left;
+        width: 100%;;
+        display: block;
+        margin: 0 auto; 
+        padding-top: 10px;
+    }
+
+    .contact .last {
+        float: left;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
     }
     
     button { width: 250px; }
@@ -507,7 +537,7 @@ button:hover {
      }   
 }
     
-@media (min-width: 750px) and (max-width:970px) {
+@media (min-width: 750px) and (max-width:969px) {
     .nav, .footer { width: 100%; }
     
     .about-gallery { width: 40%; }
@@ -528,6 +558,8 @@ button:hover {
     
     .about-gallery, .pricing-order { padding-bottom: 20px; }
     
+    .contact input { width: 166%; }
+    
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
@@ -550,7 +582,14 @@ button:hover {
      .footer i:first-child {
         padding-left: 10px;
         padding-right: 50px;
-     }   
+     }
+    
+    .rolling-pin {
+        width: 25%; 
+        float: right;
+        margin-right: 30%;
+        transform: scale(.8);
+    }
 }
 
  @media (min-width: 970px) and (max-width: 1040px) {
@@ -564,6 +603,15 @@ button:hover {
         padding-left: 15px;
         padding-right: 10px;
      }
+     
+     .contact input { width: 172%; }
+     
+     .rolling-pin{
+        width: 25%; 
+        float: right;
+        margin-right: 25%;
+         transform: scale(.9);
+        }
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
@@ -572,5 +620,14 @@ button:hover {
      .about-gallery li:first-child { margin-right: 30%; }
 
      .pricing-order li:nth-child(2) { margin-left: 30%; }
+     
+     .contact input { width: 175%; }
+     
+     .rolling-pin{
+        width: 25%; 
+        float: none;
+        margin-left: 55%;
+        }
+     }
      
  }
