@@ -217,10 +217,10 @@ h3 {
     width: 100%;
     display: block;
     margin: 0 auto;
-    height: 540px;
     overflow: auto;
     background: pink;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .custom form {
@@ -240,18 +240,15 @@ h3 {
     text-align: left;
 }
 
-/**.custom p, .custom h4, .custom form, .custom input[type="radio"] {
-    padding-left: 15px;
-    text-indent: 15px;
-}**/
-
 select {
-    width: 220px;
+    width: 210px;
     font-size: 15px;
     height: 30px;
     border-color: black;
     color: palevioletred;
     line-height: normal;
+    display: block;
+    margin: 0 auto;
 }
 
 .padding {
@@ -277,34 +274,22 @@ select {
 
 .design label {
     float: left;
-    line-height: 25px;
     padding-left: 5px;
+    line-height: 25px;
 }   
 
 textarea {
     display: block;
     margin: 0 auto;
-    width: 220px;
-    text-align: center;
-}
-
-.flavor {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    background: pink;
+    width: 205px;
 }
 
 .flavor label {
     line-height: 25px;
     margin-right: 20px;
 }
-.date {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    background: pink;
-}
+
+.flavor-suggest { padding-top: 10px; }
 
 .submit {
     width: 70%;
@@ -590,9 +575,13 @@ button:hover {
         margin-right: 30%;
         transform: scale(.8);
     }
+    
+    textarea { width: 95%; }
+     
+    select { max-width: 160px; }
 }
 
- @media (min-width: 970px) and (max-width: 1040px) {
+ @media (min-width: 970px) and (max-width: 1039px) {
      .nav,.footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 20%; }
@@ -612,6 +601,10 @@ button:hover {
         margin-right: 25%;
          transform: scale(.9);
         }
+     
+     textarea { width: 95%; }
+     
+     select { max-width: 170px; }
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
@@ -628,6 +621,8 @@ button:hover {
         float: none;
         margin-left: 55%;
         }
-     }
      
- }
+     textarea { width: 95%; }
+     
+     select { max-width: 180px; }
+}
