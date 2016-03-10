@@ -415,6 +415,20 @@ button {
     text-align: right;
 }
 
+/**HAMBURGER**/
+.hamburger {
+   position:absolute;
+   z-index: 1000;
+   background:#FFF;
+   color:#416c78;
+   text-decoration: none;
+   font-size: 30px;
+   padding: 10px 15px;
+   border-radius: 4px;
+   left: 5px;
+   top: 15px;
+ }
+
 /** MEDIA QUERIES**/
 @media (min-width: 400px) and (max-width:590px) {
     .nav, .hero, .how, .testimonials, .pricing-div, .footer { width: 100%; }
@@ -589,7 +603,7 @@ button {
      .footer i:first-child {
         padding-left: 10px;
         padding-right: 50px;
-     }    
+     }
 }
 
 @media (min-width: 750px) and (max-width:970px) {
@@ -714,7 +728,7 @@ button {
      .footer i:first-child {
         padding-left: 10px;
         padding-right: 50px;
-     }       
+     } 
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
@@ -726,6 +740,16 @@ button {
      .pricing-div img { 
          min-width: 52%;
          margin-top: 15px;
+     }
+     
+     .hamburger {
+     display:none;
+     }
+ }
+
+@media (min-width: 750px) {
+     .hamburger {
+     display:none;
      }
  }
 

@@ -267,6 +267,20 @@
     text-align: right;
 }
 
+/**HAMBURGER**/
+.hamburger {
+   position:absolute;
+   z-index: 1000;
+   background:#FFF;
+   color:#416c78;
+   text-decoration: none;
+   font-size: 30px;
+   padding: 10px 15px;
+   border-radius: 4px;
+   left: 5px;
+   top: 15px;
+ }
+
 
 /** MEDIA QUERIES**/
 @media (min-width: 400px) and (max-width:590px) {
@@ -516,4 +530,10 @@
 @media (min-width: 1151px) and (max-width: 1200px) {
     .rolling-pin img { margin-right: 15px; }
 }
+
+@media (min-width: 750px) {
+     .hamburger {
+     display:none;
+     }
+ }
 
