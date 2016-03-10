@@ -426,15 +426,52 @@ button:hover {
         padding-top: 20px;
     }
     
+    .custom {
+        padding-bottom: 0px;
+    }
+    
     .padding {
-    width: 100%;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-}
+        width: 100%;
+        height: 600px;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    .item {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        font-family: Avenir Next;
+        color: #416c78;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 0px;
+    }
+    
+    .design textarea { width: 110%; } 
+    
+    textarea { width: 95%; }
+     
+    select { width: 205px; }
+    
+    .padding {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .design, .flavor, .date {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: pink;
+    }
     
     button { width: 250px; }
+    
+    
      
     .copyright, .social-media, .contact {
         width: 100%;
@@ -495,6 +532,37 @@ button:hover {
         display: block;
         margin: 0 auto;
         padding-top: 20px;
+    }
+    
+    .item {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        font-family: Avenir Next;
+        color: #416c78;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+    
+    .design textarea { width: 165%; } 
+    
+    textarea { width: 115%; }
+     
+    select { width: 305px; }
+    
+    .padding {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .design, .flavor, .date {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: pink;
     }
     
     button { width: 250px; }
@@ -576,12 +644,14 @@ button:hover {
         transform: scale(.8);
     }
     
-    /**textarea { width: 95%; }
+    .design textarea { width: 215%; } 
+    
+    textarea { width: 150%; }
      
-    select { max-width: 160px; }
+    select { width: 400px; }
     
     .padding {
-        width: 33.3333%;
+        width: 100%;
         display: block;
         margin: 0 auto;
         float: left;
@@ -592,7 +662,9 @@ button:hover {
         display: block;
         margin: 0 auto;
         background: pink;
-    }**/
+    }
+    
+}
 
  @media (min-width: 970px) and (max-width: 1039px) {
      .nav,.footer { width: 100%; }
@@ -615,13 +687,13 @@ button:hover {
          transform: scale(.9);
         }
      
-     /**textarea { width: 95%; }
+     textarea { width: 95%; }
      
-     select { max-width: 170px; }**/
+     select { max-width: 170px; }
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
-     .nav,.footer { width: 100%; }
+     .nav, .footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 30%;     }
 
@@ -635,7 +707,7 @@ button:hover {
         margin-left: 55%;
         }
      
-     textarea { width: 90%; }
+     textarea { width: 95%; }
      
-     select { width: 100px; }
+     select { width: 180px; }
 }
