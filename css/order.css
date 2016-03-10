@@ -217,10 +217,10 @@ h3 {
     width: 100%;
     display: block;
     margin: 0 auto;
-    height: 540px;
     overflow: auto;
     background: pink;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .custom form {
@@ -240,11 +240,6 @@ h3 {
     text-align: left;
 }
 
-/**.custom p, .custom h4, .custom form, .custom input[type="radio"] {
-    padding-left: 15px;
-    text-indent: 15px;
-}**/
-
 select {
     width: 220px;
     font-size: 15px;
@@ -252,6 +247,15 @@ select {
     border-color: black;
     color: palevioletred;
     line-height: normal;
+    display: block;
+    margin: 0 auto;
+}
+
+.padding {
+    width: 33.3333%;
+    display: block;
+    margin: 0 auto;
+    float: left;
 }
 
 .padding {
@@ -277,34 +281,22 @@ select {
 
 .design label {
     float: left;
-    line-height: 25px;
     padding-left: 5px;
+    line-height: 25px;
 }   
 
 textarea {
     display: block;
     margin: 0 auto;
-    width: 220px;
-    text-align: center;
-}
-
-.flavor {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    background: pink;
+    width: 205px;
 }
 
 .flavor label {
     line-height: 25px;
     margin-right: 20px;
 }
-.date {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    background: pink;
-}
+
+.flavor-suggest { padding-top: 10px; }
 
 .submit {
     width: 70%;
@@ -441,15 +433,52 @@ button:hover {
         padding-top: 20px;
     }
     
+    .custom {
+        padding-bottom: 0px;
+    }
+    
     .padding {
-    width: 100%;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-}
+        width: 100%;
+        height: 600px;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    .item {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        font-family: Avenir Next;
+        color: #416c78;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 0px;
+    }
+    
+    .design textarea { width: 110%; } 
+    
+    textarea { width: 95%; }
+     
+    select { width: 205px; }
+    
+    .padding {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .design, .flavor, .date {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: pink;
+    }
     
     button { width: 250px; }
+    
+    
      
     .copyright, .social-media, .contact {
         width: 100%;
@@ -512,6 +541,37 @@ button:hover {
         padding-top: 20px;
     }
     
+    .item {
+        width: 100%;
+        display: block;
+        font-size: 14px;
+        font-family: Avenir Next;
+        color: #416c78;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 20px;
+    }
+    
+    .design textarea { width: 165%; } 
+    
+    textarea { width: 115%; }
+     
+    select { width: 305px; }
+    
+    .padding {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .design, .flavor, .date {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: pink;
+    }
+
     button { width: 250px; }
      
     .copyright, .social-media, .contact {
@@ -590,9 +650,29 @@ button:hover {
         margin-right: 30%;
         transform: scale(.8);
     }
+
+    .design textarea { width: 215%; } 
+    
+    textarea { width: 150%; }
+     
+    select { width: 400px; }
+    
+    .padding {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .design, .flavor, .date {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        background: pink;
+    }
 }
 
- @media (min-width: 970px) and (max-width: 1040px) {
+ @media (min-width: 970px) and (max-width: 1039px) {
      .nav,.footer { width: 100%; }
      
      .about-gallery li:first-child { margin-right: 20%; }
@@ -612,22 +692,29 @@ button:hover {
         margin-right: 25%;
          transform: scale(.9);
         }
+     
+     textarea { width: 95%; }
+     
+     select { max-width: 170px; }
 }
 
  @media (min-width: 1040px) and (max-width: 1200px) {
-     .nav,.footer { width: 100%; }
+     .nav, .footer { width: 100%; }
      
-     .about-gallery li:first-child { margin-right: 30%; }
+     .about-gallery li:first-child { margin-right: 30%;     }
 
-     .pricing-order li:nth-child(2) { margin-left: 30%; }
+     .pricing-order li:nth-child(2) { margin-left: 30%;     }
      
-     .contact input { width: 175%; }
+     .contact input { width: 176%; }
      
      .rolling-pin{
         width: 25%; 
         float: none;
         margin-left: 55%;
         }
-     }
      
- }
+     textarea { width: 95%; }
+     
+     select { width: 180px; }
+}
+
