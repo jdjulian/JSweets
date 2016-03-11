@@ -8,8 +8,8 @@ $(document).ready(function(){
              $("#other-photo").css('display', 'none');
              $("#cupcake-photo").css('display', 'none');
              $(".close").on('click', function(){
-                 $("#cupcake-slider").hide();
-                 $("#cake-photo").show();
+                $("#cupcake-slider").hide();
+                $("#cake-photo").show();
                 $("#cakepop-photo").show();
                 $("#other-photo").show();
                 $("#cupcake-photo").show();   
@@ -45,7 +45,7 @@ $(document).ready(function(){
              $("#other-photo").css('display', 'none');
              $("#cupcake-photo").css('display', 'none');
              $(".sssnext").show();
-             $("#.sssprev").show();
+             $(".sssprev").show();
              $(".close").on('click', function(){
                  $("#cake-slider").hide();
                  $("#cake-photo").show();
@@ -120,9 +120,9 @@ $(document).ready(function(){
              $("#cakepop-photo").css('display', 'none');
              $("#other-photo").css('display', 'none');
              $("#cupcake-photo").css('display', 'none');
-             $(".cakepop-slder").on('click', function(){
-                 $("#cupcake-slider").hide();
-                 $("#cake-photo").show();
+             $(".close").on('click', function(){
+                $("#cakepop-slider").hide();
+                $("#cake-photo").show();
                 $("#cakepop-photo").show();
                 $("#other-photo").show();
                 $("#cupcake-photo").show();   
