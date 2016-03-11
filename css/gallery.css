@@ -187,6 +187,29 @@
     border-radius: 10px;
 }
 
+.cupcake-list, .cake-list, .other-list, .cakepop-list {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.cupcake-list .row, .cake-list .row, .other-list .row, .cakepop-list .row {
+    width: 100%;
+}
+
+.cupcake-list img, .cake-list img, .other-list img, .cakepop-list img {
+    border: 5px solid white;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.cupcake-close {
+    text-align: right;
+    padding-right: 15px;
+}
+
 .close {
     text-align: right;
     padding-right: 80px;

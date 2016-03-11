@@ -1,5 +1,7 @@
-    
-         $("#cupcake-photo").on('click', function(){
+$(document).ready(function(){
+    $(".cupcake-list").css('display', 'none');
+    $("#cupcake-photo").on('click', function(){
+        if ($(window).width() > 640) {
              $("#cupcake-slider").find('.gallery').css('display', 'block');
              $("#cake-photo").css('display', 'none');
              $("#cakepop-photo").css('display', 'none');
@@ -12,9 +14,31 @@
                 $("#other-photo").show();
                 $("#cupcake-photo").show();   
              });
-         });
-         
-         $("#cake-photo").on('click', function(){
+         } else {
+            $(".cupcake-list").css('display', 'block');
+            $("#cakepop-photo").css('display', 'none');
+            $("#other-photo").css('display', 'none');
+            $("#cupcake-photo").css('display', 'none');
+            $("#cake-photo").css('display', 'none');
+            $(".cupcake-close").on('click', function(){
+                $(".cupcake-list").hide();
+                $("#cake-photo").show();
+                $("#cakepop-photo").show();
+                $("#other-photo").show();
+                $("#cupcake-photo").show();
+                $("#cupcake-slider").hide();
+                $("#cake-slider").hide();
+                $("#cakepop-slider").hide();
+                $("#other-slider").hide();
+             }); 
+         };        
+    });
+});
+
+$(document).ready(function(){
+    $(".cake-list").css('display', 'none');
+    $("#cake-photo").on('click', function(){
+        if ($(window).width() > 640) {
              $("#cake-slider").find('.gallery').css('display', 'block');
              $("#cake-photo").css('display', 'none');
              $("#cakepop-photo").css('display', 'none');
@@ -29,9 +53,31 @@
                  $("#other-photo").show();
                  $("#cupcake-photo").show();   
              });
-         });
+        } else {
+            $(".cake-list").css('display', 'block');
+            $("#cakepop-photo").css('display', 'none');
+            $("#other-photo").css('display', 'none');
+            $("#cupcake-photo").css('display', 'none');
+            $("#cake-photo").css('display', 'none');
+            $(".cupcake-close").on('click', function(){
+                $(".cake-list").hide();
+                $("#cake-photo").show();
+                $("#cakepop-photo").show();
+                $("#other-photo").show();
+                $("#cupcake-photo").show();
+                $("#cupcake-slider").hide();
+                $("#cake-slider").hide();
+                $("#cakepop-slider").hide();
+                $("#other-slider").hide();
+             }); 
+         };        
+    });
+});
          
-         $("#other-photo").on('click', function(){
+$(document).ready(function(){
+    $(".other-list").css('display', 'none');
+    $("#other-photo").on('click', function(){
+        if ($(window).width() > 640) {
              $("#other-slider").find('.gallery').css('display', 'block');
              $("#cake-photo").css('display', 'none');
              $("#cakepop-photo").css('display', 'none');
@@ -44,9 +90,31 @@
                  $("#other-photo").show();
                  $("#cupcake-photo").show();   
              });
-         });
-         
-         $("#cakepop-photo").on('click', function(){
+        } else {
+            $(".other-list").css('display', 'block');
+            $("#cakepop-photo").css('display', 'none');
+            $("#other-photo").css('display', 'none');
+            $("#cupcake-photo").css('display', 'none');
+            $("#cake-photo").css('display', 'none');
+            $(".cupcake-close").on('click', function(){
+                $(".other-list").hide();
+                $("#cake-photo").show();
+                $("#cakepop-photo").show();
+                $("#other-photo").show();
+                $("#cupcake-photo").show();
+                $("#cupcake-slider").hide();
+                $("#cake-slider").hide();
+                $("#cakepop-slider").hide();
+                $("#other-slider").hide();
+             }); 
+         };        
+    });
+});
+    
+$(document).ready(function(){
+    $(".cakepop-list").css('display', 'none');
+    $("#cakepop-photo").on('click', function(){
+        if ($(window).width() > 640) {    
              $("#cakepop-slider").find('.gallery').css('display', 'block');
              $("#cake-photo").css('display', 'none');
              $("#cakepop-photo").css('display', 'none');
@@ -59,7 +127,26 @@
                 $("#other-photo").show();
                 $("#cupcake-photo").show();   
              });
-         });
+         } else {
+            $(".cakepop-list").css('display', 'block');
+            $("#cakepop-photo").css('display', 'none');
+            $("#other-photo").css('display', 'none');
+            $("#cupcake-photo").css('display', 'none');
+            $("#cake-photo").css('display', 'none');
+            $(".cupcake-close").on('click', function(){
+                $(".cakepop-list").hide();
+                $("#cake-photo").show();
+                $("#cakepop-photo").show();
+                $("#other-photo").show();
+                $("#cupcake-photo").show();
+                $("#cupcake-slider").hide();
+                $("#cake-slider").hide();
+                $("#cakepop-slider").hide();
+                $("#other-slider").hide();
+             }); 
+         };        
+    });
+});
          
          $(function($) {
              $('.slider').sss({
@@ -70,6 +157,3 @@
                  showNav : true // Set to false to hide navigation arrows.
              });
          });                                                
-
-    
-    
