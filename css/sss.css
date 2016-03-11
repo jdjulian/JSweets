@@ -34,7 +34,7 @@
     display: block;
 	position: absolute;
 	top: 150px;
-	background: url("/images/arr.png") no-repeat;
+	background: url("../images/arr.png") no-repeat;
     z-index:0;
 }
 

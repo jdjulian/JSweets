@@ -142,7 +142,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background-image: url('/images/gallery/Cupcakes/pink_birds.png');
+    background-image: url('../images/gallery/Cupcakes/pink_birds.png');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background-image: url('/images/gallery/Cakes/roses_two_white.png');
+    background-image: url('../images/gallery/Cakes/roses_two_white.png');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@
     float: left;
     width: 390px;
     height: 240px;
-    background-image: url('/images/gallery/Other_Sweets/FullSizeRender%20(1).jpg');
+    background-image: url('../images/gallery/Other_Sweets/FullSizeRender%20(1).jpg');
     background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@
 #cakepop-photo {
     width: 390px;
     height: 240px;
-    background-image: url('/images/gallery/Cakepops/dots_stripes_white.JPG');
+    background-image: url('../images/gallery/Cakepops/dots_stripes_white.JPG');
     background-size: 175%;
     background-position: center center;
     background-repeat: no-repeat;
